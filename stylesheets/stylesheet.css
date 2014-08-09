@@ -421,3 +421,10 @@ Small Device Styles
   }
 
 }
+
+.timer {
+  float: left;
+  margin:10px;
+  font-size:60px;
+  color:#575757;
+}
