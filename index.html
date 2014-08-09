@@ -22,12 +22,12 @@
     <!-- MAIN CONTENT -->
    <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-      <h2>COUNTDOWN TO EVERYTHING</h2>
-      <div style="height:200px">
+      <div style="height:180px">
       <div class="timer"><span id="hours"></span><br/>Hours</div>
       <div class="timer"><span id="minutes"></span><br/>Mins</div>
       <div class="timer"><span id="seconds"></span><br/>Secs</div>
       </div>
+      <img id="shipitImg" src="" width="400" />
    <script>
       var refreshTime = function() {
         var end = new Date(Date.parse("2014-08-10 00:00:00")).getTime();
@@ -64,7 +64,10 @@
     </div>
 
     
-    <script>window.setTimeout(function() {window.location.reload();}, 5*60*1000 );</script>
+    <script>
+    document.getElementById("shipitImg").src = "images/shipit"+Math.ceil(Math.random()*6)+".jpg";
+    window.setTimeout(function() {window.location.reload();}, 5*60*1000 );
+    </script>
    
   </body>
 </html>
