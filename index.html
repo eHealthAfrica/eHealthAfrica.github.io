@@ -33,12 +33,19 @@
         var end = new Date(Date.parse("2014-08-10 00:00:00")).getTime();
         var now = new Date().getTime();
         var diff = end - now;
-        var hh = Math.floor(diff / 1000 / 60 / 60);
-        diff -= hh * 1000 * 60 * 60;
-        var mm = Math.floor(diff / 1000 / 60);
-        diff -= mm * 1000 * 60;
-        var ss = Math.floor(diff / 1000);
-        diff -= ss * 1000;
+        if(diff <= 0)
+        {
+          mm = hh = ss = 0;
+        }
+        else
+        {
+          var hh = Math.floor(diff / 1000 / 60 / 60);
+          diff -= hh * 1000 * 60 * 60;
+          var mm = Math.floor(diff / 1000 / 60);
+          diff -= mm * 1000 * 60;
+          var ss = Math.floor(diff / 1000);
+          diff -= ss * 1000;
+        }
         document.getElementById("hours").innerText = hh;
         document.getElementById("minutes").innerText = mm;
         document.getElementById("seconds").innerText = ss;
