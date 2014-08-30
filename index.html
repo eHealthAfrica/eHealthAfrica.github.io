@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>dev.ehealth.org.ng</title>
+    <title>eHealth Africa Ebola Response</title>
   </head>
 
   <body>
@@ -22,52 +22,45 @@
     <!-- MAIN CONTENT -->
    <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-      <div style="height:180px">
-      <div class="timer"><span id="hours"></span><br/>Hours</div>
-      <div class="timer"><span id="minutes"></span><br/>Mins</div>
-      <div class="timer"><span id="seconds"></span><br/>Secs</div>
-      </div>
-      <img id="shipitImg" src="" width="400" />
-   <script>
-      var refreshTime = function() {
-        var end = new Date(Date.parse("2014-08-10 12:00:00")).getTime();
-        var now = new Date().getTime();
-        var diff = end - now;
-        if(diff <= 0)
-        {
-          mm = hh = ss = 0;
-        }
-        else
-        {
-          var hh = Math.floor(diff / 1000 / 60 / 60);
-          diff -= hh * 1000 * 60 * 60;
-          var mm = Math.floor(diff / 1000 / 60);
-          diff -= mm * 1000 * 60;
-          var ss = Math.floor(diff / 1000);
-          diff -= ss * 1000;
-        }
-        document.getElementById("hours").innerText = hh;
-        document.getElementById("minutes").innerText = mm;
-        document.getElementById("seconds").innerText = ss;
-        window.setTimeout(refreshTime, 1000);
-      };
-      window.setTimeout(refreshTime, 1000);
-    </script>
+     
+<p>We are eHealth Africa, an NGO based in northern Nigeria doing innovative health service delivery and outbreak response projects in West Africa. 
+We're looking for talented, hard-working javascript engineers to join our Berlin dev team <strong>immediately</strong>
+and work on our live ebola outbreak response systems.</p>
+
+You must
+<ul>
+ <li>Have excellent JavaScript skills</li>
+ <li>Have professional experience with AngularJS and/or document storage (preferably CouchDB)</li>
+ <li>Have a sense of humor under pressure</li>
+ <li>Seriously love good coding / design practices</li>
+ <li>Be familiar with basic devops, git, TDD, git, RESTful APIs</li>
+</ul>
+It would be extra awesome if you
+<ul>
+ <li>Were into data analysis & visualization, GIS, node, django, and/or cordova/phonegap apps</li>
+ <li>Considered yourself a full-stack dev with side interests in UX design</li>
+</ul>
+
+You'll get
+<ul>
+ <li>To work with a dynamic international team</li>
+ <li>Using cutting edge web technologies</li>
+ <li>Open-sourcing most of your code</li>
+ <li>From Berlin (with the possibility to visit Nigeria)</li>
+ <li>On a critical, innovative project with international significance</li>
+</ul>
+
+<p>We're after folks who can begin immediately, initial contract will be 3 months but could be extended. 
+If you're interested in chatting about it please send a short note describing your best work and a resume to Justin at <a href="mailto:ebola.dev@ehealthnigeria.org">ebola.dev@ehealthnigeria.org</a>.
+</p>
         </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p><a href="http://github.com/ehealthafrica/ehealthafrica.github.io">github.com/ehealthafrica/ehealthafrica.github.io</a></p>
+        <p><a href="http://www.ehealthafrica.org"><img src="images/ehealthafricalogo.png"/></a></p>
       </footer>
     </div>
-
-    
-    <script>
-    document.getElementById("shipitImg").src = "images/shipit"+Math.ceil(Math.random()*6)+".jpg";
-    window.setTimeout(function() {window.location.reload();}, 5*60*1000 );
-    </script>
-   
   </body>
 </html>
