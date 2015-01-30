@@ -1,0 +1,371 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+@import "0.1/fonts.scss";
+@import "0.1/variables.scss";
+@import "bootstrap/mixins";
+
+
+//
+// Buttons
+// --------------------------------------------------
+
+// Common styles
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  font-family: $font-family-heading;
+  font-weight: 300;
+
+  // Reset the shadow
+  &:active,
+  &.active {
+
+  }
+
+  .badge {
+    text-shadow: none;
+  }
+}
+
+// Mixin for generating new styles
+@mixin btn-styles($btn-color: #555) {
+
+  box-shadow: 2px 2px 0px 0px darken($btn-color, 15%);
+  border-color: $btn-color;
+
+  &:hover,
+  &:focus  {
+    background-color: darken($btn-color, 12%);
+    background-position: 0 -15px;
+  }
+
+  &:active,
+  &.active {
+    background-color: darken($btn-color, 12%);
+    border-color: darken($btn-color, 14%);
+  }
+
+  &.disabled,
+  &:disabled,
+  &[disabled] {
+    background-color: darken($btn-color, 12%);
+    background-image: none;
+  }
+}
+
+// Common styles
+.btn {
+  // Remove the gradient for the pressed/active state
+  &:active,
+  &.active {
+    background-image: none;
+  }
+}
+
+// Apply the mixin to the buttons
+.btn-default { @include btn-styles($btn-default-bg); border-color: #ccc; }
+.btn-primary { @include btn-styles($btn-primary-bg); }
+.btn-success { @include btn-styles($btn-success-bg); }
+.btn-info    { @include btn-styles($btn-info-bg); }
+.btn-warning { @include btn-styles($btn-warning-bg); }
+.btn-danger  { @include btn-styles($btn-danger-bg); }
+
+
+//
+// Images
+// --------------------------------------------------
+
+.thumbnail,
+.img-thumbnail {
+  @include box-shadow(0 1px 2px rgba(0,0,0,.075));
+}
+
+
+//
+// Labels
+// --------------------------------------------------
+
+.label {
+  font-family: $font-family-medium;
+  font-weight: 300;
+}
+
+
+//
+// Dropdowns
+// --------------------------------------------------
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  @include gradient-vertical($start-color: $dropdown-link-hover-bg, $end-color: darken($dropdown-link-hover-bg, 5%));
+  background-color: darken($dropdown-link-hover-bg, 5%);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  @include gradient-vertical($start-color: $dropdown-link-active-bg, $end-color: darken($dropdown-link-active-bg, 5%));
+  background-color: darken($dropdown-link-active-bg, 5%);
+}
+
+
+//
+// Nav
+// --------------------------------------------------
+
+.nav > li > a {
+  color: $text-color;
+}
+
+
+//
+// Navbar
+// --------------------------------------------------
+
+// Default navbar
+.navbar-default {
+
+  border-radius: $navbar-border-radius;
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+    text-shadow: 0 0 0;
+  }
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 0 0;
+}
+
+.navbar-brand {
+  position: relative;
+  top: -6px;
+}
+
+.navbar-brand > img {
+  height: 32px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+// Inverted navbar
+.navbar-inverse {
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+
+  }
+
+  .navbar-brand,
+  .navbar-nav > li > a {
+
+  }
+}
+
+// Undo rounded corners in static and fixed navbars
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  border-radius: 0;
+}
+
+
+// Call Center navbar
+.navbar-call-center {
+
+  background: $brand-primary;  
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+    color: $text-color-inverse;
+  }
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: $text-color-inverse;
+  }
+}
+
+
+// Sense navbar
+.navbar-sense {
+
+  background: $brand-info;
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+    color: $text-color-inverse;
+  }
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: $text-color-inverse;
+  }
+}
+
+
+// Nutrition Journal navbar
+.navbar-journal {
+
+  background: $brand-success;
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+    color: $text-color-inverse;
+  }
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: $text-color-inverse;
+  }
+}
+
+
+// Dashboard navbar
+.navbar-dashboard {
+
+  background: $brand-africa;
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .active > a {
+    color: $text-color;
+  }
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: $text-color;
+  }
+}
+
+.navbar-call-center navbar-nav > li > a:hover,
+.navbar-sense       navbar-nav > li > a:hover,
+.navbar-journal     navbar-nav > li > a:hover,
+.navbar-dashboard   navbar-nav > li > a:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+
+
+// Fix active state of dropdown items in collapsed mode
+@media (max-width: $grid-float-breakpoint-max) {
+  .navbar .navbar-nav .open .dropdown-menu > .active > a {
+    &,
+    &:hover,
+    &:focus {
+      color: #fff;
+      @include gradient-vertical($start-color: $dropdown-link-active-bg, $end-color: darken($dropdown-link-active-bg, 5%));
+    }
+  }
+}
+
+
+//
+// Alerts
+// --------------------------------------------------
+
+// Common styles
+.alert {
+
+}
+
+// Mixin for generating new styles
+@mixin alert-styles($color) {
+  font-family: $font-family-sans-serif;
+  border: 0px;
+}
+
+// Apply the mixin to the alerts
+.alert-success    { @include alert-styles($alert-success-bg); }
+.alert-info       { @include alert-styles($alert-info-bg); }
+.alert-warning    { @include alert-styles($alert-warning-bg); }
+.alert-danger     { @include alert-styles($alert-danger-bg); }
+
+
+//
+// Progress bars
+// --------------------------------------------------
+
+// Give the progress background some depth
+.progress {
+
+}
+
+// Mixin for generating new styles
+@mixin progress-bar-styles($color) {
+
+}
+
+// Apply the mixin to the progress bars
+.progress-bar            { @include progress-bar-styles($progress-bar-bg); }
+.progress-bar-success    { @include progress-bar-styles($progress-bar-success-bg); }
+.progress-bar-info       { @include progress-bar-styles($progress-bar-info-bg); }
+.progress-bar-warning    { @include progress-bar-styles($progress-bar-warning-bg); }
+.progress-bar-danger     { @include progress-bar-styles($progress-bar-danger-bg); }
+
+// Reset the striped class because our mixins don't do multiple gradients and
+// the above custom styles override the new `.progress-bar-striped` in v3.2.0.
+.progress-bar-striped {
+  @include gradient-striped;
+}
+
+
+//
+// List groups
+// --------------------------------------------------
+
+.list-group {
+  border-radius: $border-radius-base;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  border-color: $gray-light;
+  font-weight: normal;
+
+  .badge {
+    text-shadow: none;
+  }
+}
+
+
+//
+// Panels
+// --------------------------------------------------
+
+// Common styles
+.panel {
+  border: 0px;
+}
+
+.panel .panel-body {
+  background: $gray-lighter;
+  border-bottom-left-radius: $border-radius-base;
+  border-bottom-right-radius: $border-radius-base;
+}
+
+// Mixin for generating new styles
+@mixin panel-heading-styles($color) {
+  border-bottom: 0px;
+}
+
+// Apply the mixin to the panel headings only
+.panel-default > .panel-heading   { @include panel-heading-styles($panel-default-heading-bg); }
+.panel-primary > .panel-heading   { @include panel-heading-styles($panel-primary-heading-bg); }
+.panel-success > .panel-heading   { @include panel-heading-styles($panel-success-heading-bg); }
+.panel-info > .panel-heading      { @include panel-heading-styles($panel-info-heading-bg); }
+.panel-warning > .panel-heading   { @include panel-heading-styles($panel-warning-heading-bg); }
+.panel-danger > .panel-heading    { @include panel-heading-styles($panel-danger-heading-bg); }
+
+
+//
+// Wells
+// --------------------------------------------------
+
+.well {
+  border: 0px;
+  font-family: $font-family-sans-serif;
+  box-shadow: inset 0 0 0
+}

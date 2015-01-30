@@ -1,0 +1,31 @@
+{
+  "name": "ehealth-bootstrap",
+  "description": "A theme for eHealth Africa for Bootstrap 3.0",
+  "version": "0.0.2",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "http://ehealthafrica.org",
+  "main": [
+    "0.1/bootstrap.css",
+    "0.1/bootstrap-ehealth.css",
+    "fonts/glyphicons-halflings-regular.eot",
+    "fonts/glyphicons-halflings-regular.svg",
+    "fonts/glyphicons-halflings-regular.ttf",
+    "fonts/glyphicons-halflings-regular.woff"
+  ],
+  "ignore": [
+    "/.*",
+    "_config.yml"
+  ],
+  "dependencies": {
+    "bootstrap-sass": ">= 3.2.0"
+  }
+}
