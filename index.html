@@ -4,47 +4,9 @@ layout: default
 
     <div class="row">
 
-      <h2>Apps</h2>
-      <ul>
-        {% for app in site.data.apps %}
-        <li><a href="apps/{{app.url}}">{{app.name}}</a></li>
-        {% endfor %}
-      </ul>
+      <h2>Welcome to eHealth's Documentation</h2>
+      <p>This is a catch all place where we give an overview of what what we are doing here at <a href="http://ehealthafrica.org">eHealth Africa</a> and how we go about doing it.</p>
 
-      <h2>Templates</h2>
-      <ul>
-        {% for template in site.data.templates %}
-        <li><a href="templates/{{template.url}}">{{template.name}}</a></li>
-        {% endfor %}
-      </ul>
-
-      <h2>Designers</h2>
-      <ul>
-        {% for design in site.data.designers %}
-        <li>
-          <a href="{% if design.url %}{{design.url}}{% else %}/designers/{{design.path}}{%endif%}">{{design.name}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <h2>Developers</h2>
-      <ul>
-        {% for develop in site.data.developers %}
-        <li>
-          <a href="{% if develop.url %}{{develop.url}}{% else %}/developers/{{develop.path}}{%endif%}">{{develop.name}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <h2>Assets</h2>
-      <ul>
-        {% for asset in site.data.assets %}
-        <li><a href="asset/{{asset.url}}">{{asset.name}}</a></li>
-        {% endfor %}
-      </ul>
-
-
-      <h2>Terminology</h2>
-      <p>Our apps, operations teams, and the public health sector in general, often have unusual acronyms and names. To better understand various terms use this <a href="http://ehealthafrica.github.io/ehealth-glossary-app/">eHealth Glossary App</a></p>
+      <p></p>
 
     </div>

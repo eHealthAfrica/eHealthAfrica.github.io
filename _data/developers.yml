@@ -1,11 +1,11 @@
 - name: Tech stack description
-  path: tech-stack  
+  path: developers/tech-stack  
 
-- name: Coding style
-  path: coding-style
+- name: Coding Styleguide
+  path: developers/coding-styleguide
 
 - name: App Components
-  path: app-components
+  path: developers/app-components
 
 - name: Boostrap Theme
   url: http://ehealthafrica.github.io/ehealth-bootstrap/

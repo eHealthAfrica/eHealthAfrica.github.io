@@ -11,8 +11,15 @@
 
     <div class="container">
 
+      <div id="sidebar">
+        {% include sidebar.html %}
+      </div>
+
+      <div id="main">
         {{ content }}
-      
+      </div>
+    
+        <hr>
     </div>
 
     {% include footer.html %}
