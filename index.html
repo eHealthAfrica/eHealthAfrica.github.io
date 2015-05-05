@@ -1,70 +1,50 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-  <title>eHealth Bootstrap Theme</title>
-
-  <link rel="icon" href="/images/favicon.ico">
-
-  <!-- Bootstrap core CSS -->
-  <link href="/default/bootstrap.css" rel="stylesheet">
-
-  <!-- Bootstrap theme -->
-  <link href="/default/bootstrap-ehealth.css" rel="stylesheet">
-
-  <!-- Styleguide CSS -->
-  <link href="/css/styleguide.css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="/js/thirdparty/html5shiv.min.js"></script>
-    <script src="/js/thirdparty/respond.min.js"></script>
-  <![endif]-->
-</head>
-
-
-<body role="document">
-
-<div class="container">
+---
+layout: default
+---
 
     <div class="row">
-      <p>&nbsp;</p>
-      <img src="images/app-ehealth.png">
-      <h1 class="page-heading">eHealth Africa Styleguide</h1>
-      <p>The following are different versions or variations of unified Bootstrap theme for <a href="http://ehealthafrica.org" target="_blank">eHealth Africa</a>. So far there is only one "Default" but should we want to create alternates, they will then be listed here to!</p>
-      <hr>
 
-      <h2>Bootstrap Themes</h2>
-      <ul class="post-list">
-        <li>
-          <h3>
-            <a class="post-link" href="/default/">Default Theme (v0.0.6)</a>
-          </h3>
-        </li>
+      <h2>Apps</h2>
+      <ul>
+        {% for app in site.data.apps %}
+        <li><a href="apps/{{app.url}}">{{app.name}}</a></li>
+        {% endfor %}
       </ul>
-      <p><em>You can browse, clone, fork, use, steal, love, hate, or cookie <a href="{{site.repo}}">the source code</a></em></p>
-      <hr>
 
-      <h2>Typography</h2>
-      <p>This current theme and branding is based on the open licensed <a href="http://www.impallari.com/cabin/" target="_blank">Cabin font</a></p>
-      <hr>
+      <h2>Templates</h2>
+      <ul>
+        {% for template in site.data.templates %}
+        <li><a href="templates/{{template.url}}">{{template.name}}</a></li>
+        {% endfor %}
+      </ul>
 
-      <h2>Design Assets</h2>
-      <p>We have a <a href="https://github.com/eHealthAfrica/design">repo of design assets</a>, but you need to access to that repo as it is private.</p>
-      <hr>
+      <h2>Designers</h2>
+      <ul>
+        {% for design in site.data.designers %}
+        <li>
+          <a href="{% if design.url %}{{design.url}}{% else %}/designers/{{design.path}}{%endif%}">{{design.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Developers</h2>
+      <ul>
+        {% for develop in site.data.developers %}
+        <li>
+          <a href="{% if develop.url %}{{develop.url}}{% else %}/developers/{{develop.path}}{%endif%}">{{develop.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h2>Assets</h2>
+      <ul>
+        {% for asset in site.data.assets %}
+        <li><a href="asset/{{asset.url}}">{{asset.name}}</a></li>
+        {% endfor %}
+      </ul>
+
 
       <h2>Terminology</h2>
       <p>Our apps, operations teams, and the public health sector in general, often have unusual acronyms and names. To better understand various terms use this <a href="http://ehealthafrica.github.io/ehealth-glossary-app/">eHealth Glossary App</a></p>
 
     </div>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/thirdparty/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/js/thirdparty/ie10-viewport-bug-workaround.js"></script>
-
-</body>
-
-</html>

@@ -1,0 +1,32 @@
+# Site settings
+title: eHealth Africa Documentation
+email: brennan.novak@ehealthnigeria.org
+
+description: A site that documents all the assets, media, templates, and processes done at eHealth Africa
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ehealthafrica.github.io/" # the base hostname & protocol for your site
+url_theme: "http://ehealthafrica.github.io/ehealth-bootstrap/"
+url_theme_assets: "https://github.com/eHealthAfrica/ehealth-bootstrap/blob/gh-pages/"
+
+# Server
+destination:      _site
+encoding:         UTF-8
+
+exclude:          ["bower_components", "node_modules", "grunt", "sass", "bower.json", "package.json"]
+
+# Custom vars
+current_version:  3.3.1
+repo:             https://github.com/eHealthAfrica/ehealthafrica.github.io
+
+twitter_username: ehealthafrica
+github_username:  ehealthafrica
+
+ehealth_versions: ["default"]
+ehealth_theme_version: "default"
+ehealth_apps:     ["call-center", "sense", "journal", "dashboard"]
+
+ehealth_bootstrap: ""
+
+# Build settings
+markdown: kramdown

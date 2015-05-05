@@ -1,0 +1,8 @@
+- name: Brand Guidlines
+  path: brand-guidelines
+
+- name: Design Patterns
+  path: design-patterns
+
+- name: Typography
+  path: typography
