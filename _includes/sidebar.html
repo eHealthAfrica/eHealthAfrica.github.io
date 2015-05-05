@@ -1,20 +1,19 @@
+<div class="col-sm-3 col-md-2 sidebar">
 
-  <h2>Apps</h2>
-  <ul>
-    {% for app in site.data.apps %}
-    <li><a href="apps/{{app.url}}">{{app.name}}</a></li>
-    {% endfor %}
+  <h3>Apps</h3>
+  <ul class="nav nav-sidebar">
+    <li><a href="/apps/">Browse Our Apps</a></li>
   </ul>
   
-  <h2>Templates</h2>
-  <ul>
+  <h3>Templates</h3>
+  <ul class="nav nav-sidebar">
     {% for template in site.data.templates %}
-    <li><a href="templates/{{template.url}}">{{template.name}}</a></li>
+    <li><a href="{% if template.url %}{{template.url}}{% else %}{{template.path}}{%endif%}">{{template.name}}</a></li>
     {% endfor %}
   </ul>
   
-  <h2>Designers</h2>
-  <ul>
+  <h3>Designers</h3>
+  <ul class="nav nav-sidebar">
     {% for design in site.data.designers %}
     <li>
       <a href="{% if design.url %}{{design.url}}{% else %}{{design.path}}{%endif%}">{{design.name}}</a>
@@ -22,8 +21,8 @@
     {% endfor %}
   </ul>
   
-  <h2>Developers</h2>
-  <ul>
+  <h3>Developers</h3>
+  <ul class="nav nav-sidebar">
     {% for develop in site.data.developers %}
     <li>
       <a href="{% if develop.url %}{{develop.url}}{% else %}{{develop.path}}{%endif%}">{{develop.name}}</a>
@@ -31,9 +30,11 @@
     {% endfor %}
   </ul>
   
-  <h2>Assets</h2>
-  <ul>
+  <h3>Assets</h3>
+  <ul class="nav nav-sidebar">
     {% for asset in site.data.assets %}
     <li><a href="asset/{{asset.url}}">{{asset.name}}</a></li>
     {% endfor %}
   </ul>
+
+</div>

@@ -3,23 +3,23 @@
 
   {% include head.html %}
 
-  <body role="document">
+  <body>
 
-    <div id="topbar" class="container">
-      {% include header.html %}
-    </div>
+    {% include header.html %}
 
-    <div class="container">
+    <div class="container-fluid">
 
-      <div id="sidebar">
+      <div class="row">
+
         {% include sidebar.html %}
       </div>
 
-      <div id="main">
+      <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         {{ content }}
       </div>
     
-        <hr>
+      </div>      
+
     </div>
 
     {% include footer.html %}
