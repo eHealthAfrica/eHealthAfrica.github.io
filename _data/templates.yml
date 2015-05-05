@@ -1,14 +1,14 @@
 - name: Slideshows
-  url: slideshows
+  url: /templates/slideshows/
 
 - name: User Personas
-  url: feature-specification
+  url: /templates/feature-specification/
 
 - name: Feature Specification
-  url: feature-specification
+  url: /templates/feature-specification/
 
 - name: User Research Documentation
-  url: user-research
+  url: /templates/user-research/
 
 - name: Requirements & Textblocks
-  url: requirements
+  url: /templates/requirements/

@@ -1,13 +1,24 @@
-- name: Sense - Contact Tracer
-  url: sense-tracer
+- name: Contact Tracer
+  type: sense
+  path: /apps/sense-tracer/
 
-- name: Sense - Call Center
-  url: sense-call-center
+- name: Call Center
+  type: sense
+  path: /apps/sense-call-center/
 
-- name: Sense - Dashboard
+- name: Dashboard
+  type: sense
+  path: /apps/sense-dashboard/
 
-- name: Gather - Mobile
-  url: gather-mobile
 
-- name: Gather - Dashboard
-  url: gather-dashboard
+- name: Mobile
+  type: nutrition
+  path: /apps/gather-mobile/
+
+- name: Dashboard
+  type: nutrition
+  path: /apps/gather-dashboard/
+
+- name: Visualization Platform
+  type: nutrition
+  path: /apps/mnutrition/

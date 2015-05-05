@@ -1,23 +1,23 @@
 - name: Brand Guidlines
-  path: designers/brand-guidelines
+  path: /designers/brand-guidelines/
 
 - name: Design Patterns
-  path: designers/design-patterns
+  path: /designers/design-patterns/
 
 - name: Typography
-  path: designers/typography
+  path: /designers/typography/
 
 - name: Conducting User Research
-  path: designers/conducting-user-research
+  path: /designers/conducting-user-research/
 
 - name: User testing
-  path: designers/user-testing
+  path: /designers/user-testing/
 
-- name: Principles, things you should know
-  path: designers/principles
+- name: Principles
+  path: /designers/principles/
 
 - name: Copywriting for UI
-  path: designers/copywriting
+  path: /designers/copywriting/
 
 - name: Print / Slideshow Styleguide
-  path: designers/print-slideshow-styleguide
+  path: /designers/print-slideshow-styleguide/
