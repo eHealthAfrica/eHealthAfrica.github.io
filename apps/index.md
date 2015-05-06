@@ -26,3 +26,15 @@ categories:
   {% endif %}
   {% endfor %}
 </ul>
+
+---
+
+### Call Centre
+
+<ul>
+  {% for app in site.data.apps %}
+  {% if app.type == "call-centre" %}
+  <li><h3><a href="/apps/{{app.url}}">{{app.name}}</a></h3></li>
+  {% endif %}
+  {% endfor %}
+</ul>

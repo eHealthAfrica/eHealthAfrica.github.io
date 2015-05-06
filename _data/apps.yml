@@ -28,5 +28,5 @@
 
 
 - name: Call Centre
-  type: call centre
+  type: call-centre
   path: /apps/sense-call-centre/
