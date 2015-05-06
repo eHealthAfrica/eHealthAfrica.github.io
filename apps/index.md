@@ -10,7 +10,7 @@ categories:
 <ul>
   {% for app in site.data.apps %}
   {% if app.type == "sense" %}
-  <li><h3><a href="/apps/{{app.url}}">{{app.name}}</a></h3></li>
+  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ categories:
 <ul>
   {% for app in site.data.apps %}
   {% if app.type == "nutrition" %}
-  <li><h3><a href="/apps/{{app.url}}">{{app.name}}</a></h3></li>
+  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -34,7 +34,7 @@ categories:
 <ul>
   {% for app in site.data.apps %}
   {% if app.type == "call-centre" %}
-  <li><h3><a href="/apps/{{app.url}}">{{app.name}}</a></h3></li>
+  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
   {% endif %}
   {% endfor %}
 </ul>
