@@ -8,11 +8,11 @@
 
 - name: Sense ID
   type: sense
-  path: /apps/sense-id
+  path: /apps/sense-id/
 
 - name: Sense ID Command
   type: sense
-  path: /apps/sense-id-command
+  path: /apps/sense-id-command/
 
 - name: Gather (NutSurv)
   type: nutrition

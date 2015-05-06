@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Sense Followup
-permalink: /apps/sense-followup/
+permalink: /apps/sense-followup
 categories: 
 ---
 
