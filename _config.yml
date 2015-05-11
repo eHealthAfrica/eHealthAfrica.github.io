@@ -13,7 +13,7 @@ url_theme_assets: "https://github.com/eHealthAfrica/ehealth-bootstrap/blob/gh-pa
 destination:      _gh_pages
 encoding:         UTF-8
 
-exclude:          ["bower_components", "node_modules", "grunt", "sass", "bower.json", "package.json"]
+exclude:          ["bower_components", "node_modules", "grunt", "sass", "bower.json", "package.json", "README.md"]
 
 # Custom vars
 current_version:  3.3.1
