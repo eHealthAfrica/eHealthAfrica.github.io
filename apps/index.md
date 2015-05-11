@@ -38,3 +38,15 @@ categories:
   {% endif %}
   {% endfor %}
 </ul>
+
+---
+
+### Logistics
+
+<ul>
+  {% for app in site.data.apps %}
+  {% if app.type == "logistics" %}
+  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
+  {% endif %}
+  {% endfor %}
+</ul>
