@@ -14,7 +14,7 @@
   type: sense
   path: /apps/sense-id-command/
 
-- name: Gather (NutSurv)
+- name: Gather
   type: nutrition
   path: /apps/gather-mobile/
 
@@ -22,7 +22,7 @@
   type: nutrition
   path: /apps/gather-dashboard/
 
-- name: Visualization Platform (mNutrition)
+- name: Visualization Platform
   type: nutrition
   path: /apps/mnutrition/
 
@@ -30,3 +30,11 @@
 - name: Call Centre
   type: call-centre
   path: /apps/sense-call-centre/
+
+- name: Move
+  type: logistics
+  path: /apps/move/
+
+- name: Direct Delivery
+  type: logistics
+  path: /apps/direct-delivery/
