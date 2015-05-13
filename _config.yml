@@ -6,6 +6,7 @@ description: A site that documents all the assets, media, templates, and process
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ehealthafrica.github.io/" # the base hostname & protocol for your site
+url_repo: "https://github.com/ehealthafrica/ehealthafrica.github.io/"
 url_theme: "http://ehealthafrica.github.io/ehealth-bootstrap/"
 url_theme_assets: "https://github.com/eHealthAfrica/ehealth-bootstrap/blob/gh-pages/"
 
