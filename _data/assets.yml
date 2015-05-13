@@ -1,11 +1,11 @@
 - name: Photos
-  url: photos
+  path: /assets/photos/
 
 - name: Videos
-  url: videos
+  path: /assets/videos/
 
 - name: Logos
-  url: logos
+  path: /assets/logos/
 
 - name: Icons
-  url: icons
+  path: /assets/icons/

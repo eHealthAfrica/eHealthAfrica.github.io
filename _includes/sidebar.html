@@ -33,7 +33,7 @@
   <h3>Assets</h3>
   <ul class="nav nav-sidebar">
     {% for asset in site.data.assets %}
-    <li><a href="asset/{{asset.url}}">{{asset.name}}</a></li>
+    <li><a href="{% if asset.url %}{{asset.url}}{% else %}{{asset.path}}{%endif%}">{{asset.name}}</a></li>
     {% endfor %}
   </ul>
 
