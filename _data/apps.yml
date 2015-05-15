@@ -26,10 +26,13 @@
   type: nutrition
   path: /apps/mnutrition/
 
-
 - name: Call Centre
-  type: call-centre
+  type: communications
   path: /apps/sense-call-centre/
+
+- name: Trace and Go
+  type: communications
+  path: /apps/trace-and-go/
 
 - name: Move
   type: logistics
