@@ -14,4 +14,4 @@ Most the of the website lives here in this repository. However, there are a few 
 To our develop / build site on your local machine do the following:
 
 - Install Jekyll using `gem install jekyll`
-- Build the static site & watch for files `jekyll serve --watch --config _config.yml _config-dev.yml`
+- Build the static site & watch for files `jekyll serve --watch --config _config.yml,_config-dev.yml`
