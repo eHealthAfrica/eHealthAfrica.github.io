@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Trace & Go
+title: Trace and Go
 permalink: /apps/trace-and-go/
 categories: communications, notifications
 ---

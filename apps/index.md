@@ -50,3 +50,8 @@ categories:
   {% endif %}
   {% endfor %}
 </ul>
+
+---
+
+
+To add an App [read this]({{site.url_repo}}#adding-items)

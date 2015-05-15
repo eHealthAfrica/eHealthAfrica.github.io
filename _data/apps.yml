@@ -30,7 +30,7 @@
   type: communications
   path: /apps/sense-call-centre/
 
-- name: Trace and Go
+- name: Trace & Go
   type: communications
   path: /apps/trace-and-go/
 
