@@ -30,7 +30,7 @@ Personas are a great way to get a sense of *who* is using an application. This s
 
   {{person.skills}}
   
-  **Apps & Software**
+  **Software**
 
   {{person.software}}
 
