@@ -29,6 +29,10 @@ Personas are a great way to get a sense of *who* is using an application. This s
   **Skills**
 
   {{person.skills}}
+  
+  **Apps & Software**
+
+  {{person.software}}
 
   **Challenges**
 
@@ -57,7 +61,8 @@ To add a new user persona to our list of personas copy the following block of co
   overview: 
   lifestyle:
   work:
-  kills:
+  skills:
+  software:
   challenges:
   goals:
   languages:
