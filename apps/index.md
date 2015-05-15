@@ -29,11 +29,11 @@ categories:
 
 ---
 
-### Call Centre
+### Communications
 
 <ul>
   {% for app in site.data.apps %}
-  {% if app.type == "call-centre" %}
+  {% if app.type == "communications" %}
   <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
   {% endif %}
   {% endfor %}
