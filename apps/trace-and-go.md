@@ -32,7 +32,7 @@ Families receive a notification any time the patient's status or location change
 | Role |	Description |	Personas |
 |---|---|---|
 | Case Investigator / Health Worker  | Case Investigators are responsible for monitoring patients. They are the only ones who interact with the online interface. Currently - most Case Investigators are employed by eHealth Africa. However, the rollout (coming soon) to other health services will mean this is no longer the case. Those health workers employed by eHealth Africa move around ETUS. Those not employed by eHealth Africa have a tendency to be more stationary. | Elizabeth (TODO)  |
-| Administrator | At each of the individual health facilities, there will be someone who is responsible for adding new Case Investigators, new facilities etc. This person is the administrator. | Alex (TODO) | 
+| Administrator | At each of the individual health facilities, there will be someone who is responsible for adding new Case Investigators, new facilities etc. This person is the administrator. | Bob (TODO) | 
 
 
 ### Personas
