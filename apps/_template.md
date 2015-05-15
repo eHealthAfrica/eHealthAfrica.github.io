@@ -9,12 +9,6 @@ categories: communications, notifications
 
 to be written. . .
 
-
-### Access Details
-
-to be written. . .
-
-
 ### Application
 
 to be written. . .
