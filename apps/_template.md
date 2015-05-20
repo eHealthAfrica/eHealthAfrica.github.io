@@ -1,28 +1,28 @@
 ---
 layout: page
-title: Trace and Go
-permalink: /apps/trace-and-go/
-categories: communications, notifications
+title: Name of the app
+permalink: /apps/name-of-the-app/
+categories: 
 ---
 
 ## Vision
 
-to be written. . .
+To be written…
 
 ### Application
 
-to be written. . .
+To be written…
 
 
 ---
 
-## Use Cases
+## Use cases
 
-to be written. . .
+To be written…
 
 
 ### Personas
 
-to be written. . .
+To be written…
 
 ---
