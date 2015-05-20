@@ -28,7 +28,7 @@
 
 - name: Call Centre
   type: communications
-  path: /apps/sense-call-centre/
+  path: /apps/call-centre/
 
 - name: Trace & Go
   type: communications
