@@ -41,3 +41,7 @@
 - name: Direct Delivery
   type: logistics
   path: /apps/direct-delivery/
+
+- name: Connect
+  type: logistics
+  path: /apps/connect/

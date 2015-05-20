@@ -1,16 +1,16 @@
 ---
 layout: page
-title:  Apps
+title:  Our apps
 permalink: /apps/
 categories: 
 ---
 
 ### Sense
 
-<ul>
+<ul class="list-unstyled">
   {% for app in site.data.apps %}
   {% if app.type == "sense" %}
-  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
+  <li><h4><a href="{{app.path}}">{{app.name}}</a></h4></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -19,10 +19,10 @@ categories:
 
 ### Nutrition
 
-<ul>
+<ul class="list-unstyled">
   {% for app in site.data.apps %}
   {% if app.type == "nutrition" %}
-  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
+  <li><h4><a href="{{app.path}}">{{app.name}}</a></h4></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -31,10 +31,10 @@ categories:
 
 ### Communications
 
-<ul>
+<ul class="list-unstyled">
   {% for app in site.data.apps %}
   {% if app.type == "communications" %}
-  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
+  <li><h4><a href="{{app.path}}">{{app.name}}</a></h4></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -43,10 +43,10 @@ categories:
 
 ### Logistics
 
-<ul>
+<ul class="list-unstyled">
   {% for app in site.data.apps %}
   {% if app.type == "logistics" %}
-  <li><h3><a href="{{app.path}}">{{app.name}}</a></h3></li>
+  <li><h4><a href="{{app.path}}">{{app.name}}</a></h4></li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -54,4 +54,4 @@ categories:
 ---
 
 
-To add an App [read this]({{site.url_repo}}#adding-items)
+To add an app, [read this]({{site.url_repo}}#adding-items).
