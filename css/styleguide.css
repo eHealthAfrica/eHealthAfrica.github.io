@@ -108,3 +108,20 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+/*
+ * Page UI controls for editing and filing an issue
+ */
+
+.page-ui-controls,
+.page-ui-controls a {
+  /* FIXME: Using Sass, this should use a variable. */
+  color: #bbb;
+  transition: all .3s ease-in;
+}
+
+.page-ui-controls a:hover {
+  /* FIXME: Using Sass, this should use a variable. */
+  color: #444;
+  text-decoration: none;
+}
