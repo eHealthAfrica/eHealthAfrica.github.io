@@ -14,6 +14,10 @@
   type: sense
   path: /apps/sense-id-command/
 
+- name: HAT
+  type: sense
+  path: /apps/hat/
+
 - name: Gather
   type: nutrition
   path: /apps/gather-mobile/
