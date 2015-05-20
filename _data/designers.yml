@@ -16,8 +16,8 @@
 - name: Principles
   path: /designers/principles/
 
-- name: Copywriting for UI
-  path: /designers/copywriting/
+- name: UI copywriting
+  path: /designers/ui-copywriting/
 
 - name: Print / Slideshow Styleguide
   path: /designers/print-slideshow-styleguide/
