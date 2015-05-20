@@ -1,8 +1,15 @@
 <div class="col-sm-3 col-md-2 sidebar">
 
+  <h3>eHealth Africa</h3>
+  <ul class="nav nav-sidebar">
+    {% for template in site.data.organization %}
+    <li><a href="{% if template.url %}{{template.url}}{% else %}{{template.path}}{%endif%}">{{template.name}}</a></li>
+    {% endfor %}
+  </ul>
+
   <h3>Apps</h3>
   <ul class="nav nav-sidebar">
-    <li><a href="/apps/">Browse Our Apps</a></li>
+    <li><a href="/apps/">Overview</a></li>
   </ul>
   
   <h3>Templates</h3>
