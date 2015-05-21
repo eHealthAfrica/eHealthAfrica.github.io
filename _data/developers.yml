@@ -2,10 +2,13 @@
   path: /developers/tech-stack  
 
 - name: Coding styleguides
-  path: /developers/coding-styleguide
+  path: /developers/coding-styleguides
 
 - name: App components
   path: /developers/app-components
 
 - name: Bootstrap theme
   url: http://ehealthafrica.github.io/ehealth-bootstrap/
+
+- name: Open source contributions
+  path: /developers/open-source-at-ehealth-africa

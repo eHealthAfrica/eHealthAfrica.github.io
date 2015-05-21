@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  Coding Styleguide
-permalink: /developers/coding-styleguide/
+title:  Coding Styleguides
+permalink: /developers/coding-styleguides/
 categories: developers
 ---
 
