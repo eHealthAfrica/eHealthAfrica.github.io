@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  eHealth Africa brand guidelines
-permalink: /designers/brand-guidelines/
+title:  User research
+permalink: /designers/user-research/
 categories: design, user experience
 ---
 

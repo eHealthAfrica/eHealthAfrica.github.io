@@ -1,23 +1,26 @@
-- name: Brand Guidelines
-  path: /designers/brand-guidelines/
+- name: Design principles
+  path: /designers/principles/
 
-- name: Design Patterns
-  path: /designers/design-patterns/
-
-- name: Typography
-  path: /designers/typography/
-
-- name: Conducting User Research
-  path: /designers/conducting-user-research/
+- name: User research
+  path: /designers/user-research/
 
 - name: User testing
   path: /designers/user-testing/
 
-- name: Principles
-  path: /designers/principles/
+- name: UI design patterns
+  path: /designers/ui-design-patterns/
 
 - name: UI copywriting
   path: /designers/ui-copywriting/
 
-- name: Print / Slideshow Styleguide
-  path: /designers/print-slideshow-styleguide/
+- name: Typography
+  path: /designers/typography/
+
+- name: Brand guidelines
+  path: /designers/brand-guidelines/
+
+- name: Print design
+  path: /designers/print-design/
+
+- name: Slideshow design
+  path: /designers/slideshow-design/

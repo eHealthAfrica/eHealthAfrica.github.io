@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  eHealth Africa brand guidelines
-permalink: /designers/brand-guidelines/
+title:  Slideshow design
+permalink: /designers/slideshow-design/
 categories: design, user experience
 ---
 

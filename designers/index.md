@@ -9,4 +9,4 @@ If you are designer at eHealth, this is where you should be!
 
 ---
 
-To add a Designer resource [read this]({{site.url_repo}}#adding-items)
+To add a Designer resource, [read this]({{site.url_repo}}#adding-items).

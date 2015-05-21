@@ -1,17 +1,17 @@
 - name: Slideshows
   url: /templates/slideshows/
 
-- name: User Personas
+- name: Personas
   url: /templates/user-personas/
 
-- name: Feature Specification
+- name: Feature specification
   url: /templates/feature-specification/
 
-- name: User Research Documentation
+- name: User research
   url: /templates/user-research/
 
-- name: Requirements & Textblocks
+- name: Requirements examples
   url: /templates/requirements/
 
-- name:  Non Disclosure Agreements
+- name: Non–disclosure agreements
   url: /templates/non-disclosure-agreements/
