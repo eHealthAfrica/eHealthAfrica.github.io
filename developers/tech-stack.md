@@ -5,8 +5,10 @@ permalink: /developers/tech-stack/
 categories: developers
 ---
 
-This page should give an overview and explain our technical stack.
+## eHealth Africa tech stack
 
-### Ideas
+- [Tool Reference](https://github.com/eHealthAfrica/tools-reference)
 
-Perhaps we want to link to parts of [Tool Reference](https://github.com/eHealthAfrica/tools-reference)
+### CouchDB
+- [CouchDB Best Practices](http://docs.ehealthafrica.org/couchdb-best-practices/)
+- [CouchDB view naming conventions](https://github.com/eHealthAfrica/tools-reference/blob/master/view-naming-convention.md)
