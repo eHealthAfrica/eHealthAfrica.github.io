@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ site.title }}{% if page.title %}{{ page.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 
   <link rel="icon" href="/images/favicon.ico">
 
