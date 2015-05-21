@@ -1,30 +1,30 @@
-<h3>eHealth Africa</h3>
+<h4>eHealth Africa</h4>
 <ul class="nav nav-sidebar">
 {% for template in site.data.organization %}
   <li><a href="{% if template.url %}{{template.url}}{% else %}{{template.path}}{%endif%}">{{template.name}}</a></li>
 {% endfor %}
 </ul>
 
-<h3>Apps</h3>
+<h4>Apps</h4>
 <ul class="nav nav-sidebar">
   <li><a href="/apps/">Overview</a></li>
 </ul>
   
-<h3>Templates</h3>
+<h4>Templates</h4>
 <ul class="nav nav-sidebar">
 {% for template in site.data.templates %}
   <li><a href="{% if template.url %}{{template.url}}{% else %}{{template.path}}{%endif%}">{{template.name}}</a></li>
 {% endfor %}
 </ul>
   
-<h3>Designers</h3>
+<h4>Design</h4>
 <ul class="nav nav-sidebar">
 {% for design in site.data.designers %}
   <li><a href="{% if design.url %}{{design.url}}{% else %}{{design.path}}{%endif%}">{{design.name}}</a></li>
 {% endfor %}
 </ul>
   
-<h3>Developers</h3>
+<h4>Develop</h4>
 <ul class="nav nav-sidebar">
 {% for develop in site.data.developers %}
   <li><a href="{% if develop.url %}{{develop.url}}{% else %}{{develop.path}}{%endif%}">{{develop.name}}</a></li>
