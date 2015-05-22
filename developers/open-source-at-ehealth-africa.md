@@ -16,6 +16,8 @@ To open–source a repository:
 3. Open a GitHub issue about it
 4. Get two +1 on the issue from other developers who are required to look through the codebase and commit history for sensitive information that might prevent open–sourcing the repository
 
+Point `1` is necessary if the repo contains a complete product. If you want to open source just a small library or a module providing abstract or isolated functionality, then a note in a Slack channel will be enough.
+
 Regardless of the closed or open nature of a repository, we use the [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for our codebases.
 
 All of our open–source contributions can be found in [our GitHub organization](https://github.com/ehealthafrica?utf8=%E2%9C%93&query=+only%3Apublic+).
