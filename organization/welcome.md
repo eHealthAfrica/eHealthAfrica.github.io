@@ -5,7 +5,7 @@ permalink: /organization/welcome/
 categories: organization, onboarding
 ---
 
-eHealth Africa’s mission is to build stronger health systems through the design and implementation of data–driven solutions that respond to local needs and provide undeserved communities with tools to lead healthier lives.
+eHealth Africa’s mission is to build stronger health systems through the design and implementation of data–driven solutions that respond to local needs and provide underserved communities with tools to lead healthier lives.
 
 Our core values capture the story of what we believe in and what we strive for. eHealth’s core values are:
 
