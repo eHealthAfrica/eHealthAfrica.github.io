@@ -33,8 +33,8 @@ Families receive a notification any time the patient's status or location change
 |---|---|---|
 | Case Investigator / Health Worker  | Case Investigators are responsible for monitoring patients. They are the only ones who interact with the online interface. Currently - most Case Investigators are employed by eHealth Africa. However, the rollout (coming soon) to other health services will mean this is no longer the case. Those health workers employed by eHealth Africa move around ETUS. Those not employed by eHealth Africa have a tendency to be more stationary. | Elizabeth (TODO)  |
 | HF-Administrator | At each of the individual health facilities, there will be someone who is responsible for adding new Case Investigators, new facilities etc. This person is the administrator. | Bob (TODO) | 
-| Super Administrator | Someone in-country needs to be able to have administrative permissions to create new facilities, view all data and change anything if something goes wrong. This person will need to be quite responsive (they could work for eHealth). | 
-| Call centre worker | People in the call centres will need to be able to look up whether a person is in the system  if they get a phonecall from a relative of someone at a health facility. |
+| Super Administrator | Someone in-country needs to be able to have administrative permissions to create new facilities, view all data and change anything if something goes wrong. This person will need to be quite responsive (they could work for eHealth). | Eric (TODO) |
+| Call centre worker | People in the call centres will need to be able to look up whether a person is in the TAG system if they get a phonecall from a relative of someone at a health facility asking where they are. | Jolly (TODO) | 
 
 
 ### Personas
