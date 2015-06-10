@@ -5,10 +5,14 @@ permalink: /developers/tech-stack/
 categories: developers
 ---
 
-## eHealth Africa tech stack
+We build our products based on open source tech stacks. Our standard tech stack consists of:
 
-- [Tool Reference](https://github.com/eHealthAfrica/tools-reference)
+- [CouchDB](/developers/couchdb)
+- PouchDB
+- Node.js
+- Angular.js
+- Cordova
 
-### CouchDB
-- [CouchDB Best Practices](http://docs.ehealthafrica.org/couchdb-best-practices/)
-- [CouchDB view naming conventions](https://github.com/eHealthAfrica/tools-reference/blob/master/view-naming-convention.md)
+Some tools that might be helpful in development:
+
+- [Vagrant](/developers/vagrant)
