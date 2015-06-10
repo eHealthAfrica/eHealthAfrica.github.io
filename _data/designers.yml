@@ -1,14 +1,14 @@
 - name: Design principles
   path: /designers/principles/
 
-- name: User research
-  path: /designers/user-research/
+# - name: User research
+#  path: /designers/user-research/
 
-- name: User testing
-  path: /designers/user-testing/
+# - name: User testing
+#  path: /designers/user-testing/
 
-- name: UI design patterns
-  path: /designers/ui-design-patterns/
+# - name: UI design patterns
+#  path: /designers/ui-design-patterns/
 
 - name: UI copywriting
   path: /designers/ui-copywriting/
@@ -19,8 +19,8 @@
 - name: Brand guidelines
   path: /designers/brand-guidelines/
 
-- name: Print design
-  path: /designers/print-design/
+# - name: Print design
+#  path: /designers/print-design/
 
-- name: Slideshow design
-  path: /designers/slideshow-design/
+# - name: Slideshow design
+#  path: /designers/slideshow-design/
