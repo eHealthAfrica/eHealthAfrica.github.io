@@ -8,7 +8,7 @@
 #  path: /developers/app-components
 
 - name: Bootstrap theme
-  url: http://ehealthafrica.github.io/ehealth-bootstrap/
+  path: /developers/bootstrap/
 
 - name: Components
   path: /developers/components
