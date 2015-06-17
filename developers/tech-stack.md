@@ -16,7 +16,7 @@ We build our products based on open source tech stacks. Our standard tech stack 
 
 Alternatively, we use Django and PostgreSQL.
 
-We host our code repositories on [GitHub](https://www.github.com/eHealthAfrica), read the CONTRIBUTING.md file when in doubt on how to work within a project. When creating a new repository, start from it being private (read more).
+We host our code repositories on [GitHub](https://www.github.com/eHealthAfrica), read the CONTRIBUTING.md file when in doubt on how to work within a project. When creating a new repository, start from it being private ([read more](/developers/open-source-at-ehealth-africa/)).
 
 Continuous integration is handled via [Travis](https://travis-ci.org). To make sure that works, your new repo needs to have a private key set by the org owners — ask about it on Slack. The repos that are checked out while testing need to have the corresponding public key set by adding the ehealthafrica-ci user as a Collaborator (that means adding the “read only” group).
 
