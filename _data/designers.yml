@@ -16,8 +16,8 @@
 - name: Typography
   path: /designers/typography/
 
-- name: Brand guidelines
-  path: /designers/brand-guidelines/
+# - name: Brand guidelines
+#  path: /designers/brand-guidelines/
 
 # - name: Print design
 #  path: /designers/print-design/
