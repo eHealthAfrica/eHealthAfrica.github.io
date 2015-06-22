@@ -18,3 +18,7 @@ Please note that after installation, if you try to `npm install -g anything`, it
 ### nvm installation
 
 Optionally, you can use [nvm, the Node Version Manager](https://github.com/creationix/nvm). Just follow its documentation.
+
+## Uninstall
+
+Should you need to completely uninstall and remove node, npm, and all packages [this script](https://gist.github.com/ddo/668630454ea0d74fdc21) is helpful.
