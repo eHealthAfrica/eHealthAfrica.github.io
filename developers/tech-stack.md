@@ -9,7 +9,7 @@ We build our products based on open source tech stacks. Our standard tech stack 
 
 - [CouchDB](/developers/couchdb)
 - PouchDB on the client
-- Node.js (0.10.x)
+- [Node.js](/developers/node-js) (0.10.x)
 - [Angular.js](/developers/angular-js/)
 - Cordova for mobile apps
 - Docker for deployments
