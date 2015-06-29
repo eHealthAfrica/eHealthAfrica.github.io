@@ -7,11 +7,11 @@ categories: logistics
 
 ## Vision
 
-Connect is an application designed for managers overseeing various activities in the public health system of Kano State, Nigeria. 
+Kano Connect is a 36-month initiative to build a sustainable primary health care communications and
+mHealth service platform in Kano State, Nigeria.
 
-The vision is both: 
-a) to allow greater oversight and visibility into what is happening at state, zone and LGA level within Kano State
-b) to support problem-solving by supporting greater interconnection between health workers trying to act on problems e.g. by providing them with a directory of who to contact for which problem. 
+It provides core components to help address key information challenges in routine immunization (RI) such as limited provider-to-provider communication, reliance on paper-based data collection, long lag between reporting and
+response, and limited operational visibility.
 
 ### Application
 
