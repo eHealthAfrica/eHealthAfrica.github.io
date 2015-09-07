@@ -6,8 +6,30 @@ categories: developers
 ---
 
 <div class="alert alert-info">
-  <strong>The content in this page reflects the current state of an ongoing discussion.</strong><br> Please contribute in the corresponding GitHub issues: <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/22">HTML</a>, <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/21">Sass</a>, <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/20">JavaScript</a>.
+  <strong>The content in this page reflects the current state of an ongoing discussion.</strong><br>
+  Please contribute in the corresponding GitHub issues:
+  <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/31">README</a>,
+  <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/22">HTML</a>,
+  <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/21">Sass</a>,
+  <a href="https://github.com/eHealthAfrica/eHealthAfrica.github.io/issues/20">JavaScript</a>.
 </div>
+
+## README
+The better the README, the faster we can dive into a new project. If we manage
+to implement a similar README structure in all our project we will increase our
+productivity.
+
+All our READMEs should have the following outline:
+
+1. Name
+2. Description
+3. Code snippet / usage example
+4. Installation
+5. Detailed usage
+6. Testing
+7. License
+
+Please read Joshua Holbrooks [How To Write A Readme](http://jfhbrook.github.io/2011/11/09/readmes.html).
 
 ## HTML
 
