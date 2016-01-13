@@ -26,6 +26,14 @@ h1, h2, h3 {
   color: $heading-color;
 }
 
+h1 {
+  font-size: $step*1.333;
+}
+
+h2 {
+  font-size: $step;
+}
+
 .large-type {
   font-size: $step / 1.2;
   line-height: $step * 1.333;

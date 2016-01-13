@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="{{ page.path | replace: '/', ' ' | replace: '.md', '' | replace: '404', 'not-found'}}">
+{% comment %} Add any classes specified in the Front Matter plus the file name as classes {% endcomment %}
+<html class="{{ page.class }} {{ page.url | replace:'/',' ' | replace:'.html',''  }}">
 
   {% include head.html %}
 
@@ -7,9 +8,9 @@
 
     {% include header.html %}
 
-    <div class="page-content js-page-content">
-      {{ content }}
-    </div>
+    <article class="main">
+        {{ content }}
+    </article>
 
     {% include footer.html %}
 

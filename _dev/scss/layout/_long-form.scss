@@ -1,0 +1,47 @@
+$longform-hero-height: 500px;
+
+.long-form {
+
+  // pull the hero section out of the article's padding
+  .hero {
+    margin: 0 - $step*2 0 - $step*.5 $step;
+    padding-top: $step*10;
+
+    @include media-query('large') {
+      margin: 0 - $step*2 calc(#{$page-width * .5} - 50vw) $step*2;
+      padding: $step*10 calc(50vw - #{$page-width * .5}) $step*2;
+    }
+  }
+
+  p, blockquote, ul, li {
+    font-size: 20px;
+    line-height: $step*1.333;
+  }
+
+  img {
+    margin-left: 0 - $step*.5;
+    margin-right: 0 - $step*.5;
+    max-width: calc(100% + #{$step});
+  }
+
+  blockquote {
+    color: $projects-color;
+    margin: 0 0 $step;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  @include media-query('large') {
+    img {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+    }
+
+    blockquote {
+      margin-left: $step*2;
+      margin-right: $step*2;
+    }
+  }
+
+}

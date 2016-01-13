@@ -22,7 +22,10 @@ future: true
 show_drafts: true
 
 collections:
-- jobs
+  jobs:
+    output: true
+  projects:
+    output: true
 
 # Markdown library
 markdown: kramdown

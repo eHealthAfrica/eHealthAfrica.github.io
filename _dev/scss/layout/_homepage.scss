@@ -1,158 +1,114 @@
-h1 {
-  font-size: $step;
-  text-align: center;
-}
-
-.hero {
-  // position: relative;
-  // height: calc(100vh - #{$step * 2});
-  padding-top: $step*8;
-  background-image: url(/img/hero-homepage.jpg);
-  background-size: cover;
-  background-position: center;
-
-  h1, h2, p {
-    color: white;
-  }
-
-  h1, h2 {
-    width: calc(100% - #{$step});
-    line-height: 1;
-    margin-top: 0;
-    margin-bottom: $step;
-  }
-
+.homepage {
   h1 {
-    font-size: $step*1.333;
-    font-weight: bold;
-    text-align: left;
-  }
-
-  h2 {
     font-size: $step;
-    font-weight: normal;
+    text-align: center;
   }
 
-  @include media-query('large') {
-    padding-top: $step*8;
-    padding-bottom: $step*4;
-
-    h1, h2, p {
-      padding-left: 40%;
-      margin-bottom: $step*2;
-    }
-
-    h1 {
-      font-size: $step*2;
-    }
-  }
-}
-
-.hero p, .intro p, .open-source p {
-  @extend .large-type;
-}
-
-.open-source {
-  background-image: url(/img/bg-open-source.jpg);
-  background-size: cover;
-  background-position: center;
-
-  color: white;
-
-  .github-logo {
-    display: block;
-    margin: $step*2 auto 0;
-  }
-}
-
-.jobs {
-  background-color: #f0efef;
-
-  p {
-    margin-bottom: $step;
+  .hero p, .intro p, .open-source p {
+    @extend .large-type;
   }
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .open-source {
+    background-image: url(/img/bg-open-source.jpg);
+    background-size: cover;
+    background-position: center;
 
-    li {
+    color: white;
+
+    .github-logo {
       display: block;
-      background-color: $brand-color;
-      margin-bottom: $step;
-      padding: $step;
-      border-radius: 3px;
-      box-shadow: 0 2px 1px rgba(0,0,0,0.3);
+      margin: $step*2 auto 0;
+    }
+  }
 
-      &:hover {
-        position: relative;
-        top: -1px;
-        box-shadow: 0 3px 1px rgba(0,0,0,0.3);
+  .jobs {
+    background-color: #f0efef;
+
+    p {
+      margin-bottom: $step;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: block;
+        background-color: $brand-color;
+        margin-bottom: $step;
+        padding: $step;
+        border-radius: 3px;
+        box-shadow: 0 2px 1px rgba(0,0,0,0.3);
+
+        &:hover {
+          position: relative;
+          top: -1px;
+          box-shadow: 0 3px 1px rgba(0,0,0,0.3);
+        }
+
+        p {
+          margin: 0;
+          color: white;
+
+          &:first-child {
+            font-weight: bold;
+          }
+        }
       }
 
-      p {
-        margin: 0;
-        color: white;
+      @include media-query('large') {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
-        &:first-child {
-          font-weight: bold;
+        margin: 0 - $step;
+
+        li {
+          flex: 1 1 40%;
+          margin: $step;
         }
+
+      }
+
+    }
+
+  }
+
+  .contact {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li, li p {
+      margin: 0;
+    }
+    li {
+      margin-bottom: $step*2;
+
+      h2 {
+        margin: 0;
+        font-size: $body-font-size;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: $step;
       }
     }
 
     @include media-query('large') {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
 
-      margin: 0 - $step;
-
-      li {
-        flex: 1 1 40%;
-        margin: $step;
+      ul {
+        margin: 0 $step*4;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
       }
 
+      li {
+        flex: 1 1 50%;
+      }
     }
-
-  }
-
-}
-
-.contact {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  li, li p {
-    margin: 0;
-  }
-  li {
-    margin-bottom: $step*2;
-
-    h2 {
-      margin: 0;
-      font-size: $body-font-size;
-    }
-
-    a {
-      display: inline-block;
-      margin-top: $step;
-    }
-  }
-
-  @include media-query('large') {
-
-    ul {
-      margin: 0 $step*4;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-
-    li {
-      flex: 1 1 50%;
-    }
-  }
-}
+  }}

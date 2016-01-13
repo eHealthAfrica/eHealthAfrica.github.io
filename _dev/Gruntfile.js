@@ -30,7 +30,7 @@ module.exports = function (grunt) {
         tasks: ['browserify:basic']
       },
       jekyll: {
-        files: ['../*.md', '../_includes/*.html', '../_layouts/*.html', '../_jobs/*.md'],
+        files: ['../*.md', '../_includes/*.html', '../_layouts/*.html', '../_jobs/*.md', '../_projects/*.md'],
         tasks: ['jekyll:server']
       }
     },

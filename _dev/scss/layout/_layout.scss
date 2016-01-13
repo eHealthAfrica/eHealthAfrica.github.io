@@ -2,7 +2,7 @@
   @include clearfix();
 }
 
-section {
+section, article {
   padding: $step*2 $step*.5;
   @include media-query('large') {
     padding: $step*2 calc(50% - #{$page-width * .5});

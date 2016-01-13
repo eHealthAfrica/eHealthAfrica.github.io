@@ -1,0 +1,50 @@
+.hero {
+  padding-top: $step*8;
+  background-size: cover;
+  background-position: center;
+
+  h1, h2, p {
+    color: white;
+  }
+
+  h1, h2 {
+    width: calc(100% - #{$step});
+    line-height: 1.3333;
+    margin-top: 0;
+    margin-bottom: $step;
+  }
+
+  h1 {
+    font-size: $step*1.333;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  @include media-query('large') {
+    padding-top: $step*8;
+    padding-bottom: $step*4;
+
+    h1, h2, p {
+      padding-left: 40%;
+      margin-bottom: $step*2;
+    }
+
+    h1 {
+      font-size: $step*2;
+    }
+  }
+
+  .homepage & {
+    background-image: url(/img/hero-homepage.jpg);
+  }
+
+  .call-centre & {
+    background-image: url(/img/hero-call-centre.jpg);
+  }
+}
+
+

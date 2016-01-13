@@ -21,7 +21,6 @@
   a {
     display: block;
     flex: 1 1 auto;
-    color: #6eb570;
     border-bottom: 0;
     text-transform: uppercase;
     font-weight: bold;
@@ -33,6 +32,14 @@
     &:last-of-type {
       text-align: right;
     }
+  }
+
+  & a {
+    color: $brand-color;
+  }
+
+  .projects & a {
+    color: $projects-color;
   }
 }
 
@@ -47,7 +54,7 @@
     transform: none;
     flex: 0 0 auto;
   }
-  .mh__nav {
+  .mh__nav, .projects .mh__nav {
     flex: 1 1 auto;
     display: inline-block;
     text-align: right;
