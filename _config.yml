@@ -1,33 +1,34 @@
-# Site settings
-title: Documentation | eHealth Africa
-email: brennan.novak@ehealthnigeria.org
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
 
-description: A site that documents all the assets, media, templates, and processes done at eHealth Africa
+name: eHealth Africa Global Informatics
+description:
+author:
+  name: Adam Butler
+  email: adam.butler@ehealthafrica.org
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ehealthafrica.github.io/" # the base hostname & protocol for your site
-url_repo: "https://github.com/ehealthafrica/ehealthafrica.github.io/"
-url_theme: "http://ehealthafrica.github.io/ehealth-bootstrap/"
-url_theme_assets: "https://github.com/eHealthAfrica/ehealth-bootstrap/blob/gh-pages/"
+# Grunt handles images and assets.
+# exclude: ['img', 'css', 'js', 'fonts',
+#          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-# Server
-destination:      _gh_pages
-encoding:         UTF-8
+exclude: ['README.md']
 
-exclude:          ["bower_components", "node_modules", "grunt", "sass", "bower.json", "package.json", "README.md"]
+include: ['.htaccess', 'CNAME']
 
-# Custom vars
-current_version:  3.3.1
-repo:             https://github.com/eHealthAfrica/ehealthafrica.github.io
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
 
-twitter_username: ehealthafrica
-github_username:  ehealthafrica
+collections:
+- jobs
 
-ehealth_versions: ["default"]
-ehealth_theme_version: "default"
-ehealth_apps:     ["call-center", "sense", "journal", "dashboard"]
-
-ehealth_bootstrap: ""
-
-# Build settings
+# Markdown library
 markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+#   extensions: ['fenced_code_blocks', 'smart']
+
+pygments: false

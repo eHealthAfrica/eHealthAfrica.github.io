@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html class="{{ page.path | replace: '/', ' ' | replace: '.md', '' | replace: '404', 'not-found'}}">
 
   {% include head.html %}
 
@@ -7,24 +7,8 @@
 
     {% include header.html %}
 
-    <div class="container-fluid">
-
-      <div class="row wrapper">
-
-        <div class="col-sm-3 col-md-2 sidebar">
-
-          {% include sidebar.html %}
-        
-        </div>
-
-        <div class="col-sm-9 col-md-10 main">
-          
-          {{ content }}
-
-        </div>
-    
-      </div>      
-
+    <div class="page-content js-page-content">
+      {{ content }}
     </div>
 
     {% include footer.html %}

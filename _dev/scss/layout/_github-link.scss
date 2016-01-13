@@ -1,0 +1,47 @@
+.github-link {
+
+  margin: $step 0;
+
+  p, h1 {
+    float: none;
+    width: 100%;
+  }
+
+  p {
+    padding: $step;
+    text-align: center;
+    background: white url(/img/github.jpg) center top no-repeat;
+    background-size: 100% auto;
+    margin-bottom: 0;
+    border-radius: $step*.5;
+    border: 1px solid $pale-color;
+
+    @include media-query('large') {
+      padding: $step*2;
+    }
+  }
+
+  .cta-light {
+    background-color: white;
+  }
+
+  &.github-link__dark-bg {
+    padding: $step*.5;
+    border-radius: $step*.5;
+    background-color: $mid-color;
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+
+    p {
+      background-position: center;
+
+      @include media-query('large') {
+        padding: $step*3;
+      }
+    }
+  }
+
+}

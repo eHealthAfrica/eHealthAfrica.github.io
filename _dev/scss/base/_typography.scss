@@ -1,0 +1,38 @@
+$font-family: lato, sans-serif;
+$body-font-size: 16px;
+
+$body-font-size: $body-font-size;
+$body-line-height: $step;
+$body-font-weight: 300;
+
+body {
+  color: $text-color;
+  background-color: $light-color;
+  font-family: $font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
+}
+
+h1, h2, p, ul, input {
+  margin: 0 0 $step;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  color: $heading-color;
+}
+
+.large-type {
+  font-size: $step / 1.2;
+  line-height: $step * 1.333;
+}
+
+a, a:visited {
+  color: $text-color;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}

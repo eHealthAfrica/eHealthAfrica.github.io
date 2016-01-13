@@ -1,0 +1,10 @@
+<ul>
+{% for job in site.jobs %}
+  <li>
+    <a href="">
+      <p>{{ job.title }}</p>
+      <p>{{ job.location }}</p>
+    </a>
+  </li>
+{% endfor %}
+</ul>

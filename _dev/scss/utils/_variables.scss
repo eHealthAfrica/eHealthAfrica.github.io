@@ -1,0 +1,18 @@
+// Our variables
+$step: 24px;
+
+$brand-color: #5ead5f;
+
+$text-color: #444444;
+$heading-color: #393C44;
+$light-color: #fdfdfd;
+
+$page-width: 800px;
+
+// responsive
+$breakpoints: (
+  'small': 500px,
+  'medium': 800px,
+  'large': 1000px,
+  'huge': 1200px,
+);
