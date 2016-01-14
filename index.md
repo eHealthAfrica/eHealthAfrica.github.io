@@ -25,9 +25,9 @@ Check out our [case studies](/case-studies.html) to get a better idea of what we
 </section>
 <section class="open-source">
 
-We **open source** our work, wherever possible. Take a look at our Github repo… or even better, send us a **pull request**!
+We **open source** our work, wherever possible. Take a look at our [Github repo](https://github.com/eHealthAfrica/)… or even better, send us a **pull request**!
 
-![Github logo](/img/github-white.png){:class="github-logo"}
+[![Github logo](/img/github-white.png){:class="github-logo"}](https://github.com/eHealthAfrica/)
 
 </section>
 <section class="jobs">
