@@ -65,14 +65,11 @@
         margin: 0 - $step;
 
         li {
-          flex: 1 1 40%;
+          flex: 0 0 calc(50% - #{$step*2});
           margin: $step;
         }
-
       }
-
     }
-
   }
 
   .contact {
@@ -111,4 +108,5 @@
         padding-left: $step*4;
       }
     }
-  }}
+  }
+}
