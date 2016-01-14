@@ -1,4 +1,4 @@
-.hero {
+body .hero {
   padding-top: $step*8;
   background-size: cover;
   background-position: center;
@@ -24,6 +24,10 @@
     font-weight: normal;
   }
 
+  p {
+    @extend .large-type;
+  }
+
   @include media-query('large') {
     padding-top: $step*8;
     padding-bottom: $step*4;
@@ -45,6 +49,22 @@
   .call-centre & {
     background-image: url(/img/hero-call-centre.jpg);
   }
-}
 
+  .jobs & {
+    background-image: url(/img/hero-jobs.jpg);
+  }
+
+  // when there are hero elements on single articles such as project case studies or jobs
+  // we need to do some calc fu to make the element go full width
+  .long-form &, .jobs & {
+    margin: 0 - $step*2 0 - $step*.5 $step;
+    padding-top: $step*10;
+
+    @include media-query('large') {
+      margin: 0 - $step*2 calc(#{$page-width * .5} - 50vw) $step*2;
+      padding: $step*10 calc(50vw - #{$page-width * .5}) $step*2;
+    }
+  }
+
+}
 

@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.mh__home-link {
+  border: 0;
+}
+
 .mh__logo {
   position: relative;
   left: 50%;
@@ -40,6 +44,10 @@
 
   .projects & a {
     color: $projects-color;
+  }
+
+  .jobs & a {
+    color: $jobs-colour;
   }
 }
 

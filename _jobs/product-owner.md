@@ -1,6 +1,5 @@
 ---
 layout: default
-class: job
 title: Product Owner
 location: Berlin / Kano
 ---

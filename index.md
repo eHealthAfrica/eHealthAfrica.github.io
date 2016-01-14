@@ -32,7 +32,7 @@ We **open source** our work, wherever possible. Take a look at our Github repoâ€
 </section>
 <section class="jobs">
 
-# Work With Us
+# <a name="jobs">Work With Us</a>
 
 Does this sound like the kind of work you want to do? If so, **come and join us**! Our international software development team of 27 is located in **Kano**, **Berlin**, **Monrovia** and **Freetown**. Weâ€™re currently looking to fill the following positions:
 
@@ -41,7 +41,7 @@ Does this sound like the kind of work you want to do? If so, **come and join us*
 </section>
 <section class="contact">
 
-# Contact Us
+# <a name="contact">Contact Us</a>
 
 * ##NIGERIA
 

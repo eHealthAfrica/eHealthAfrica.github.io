@@ -1,7 +1,7 @@
 <ul>
 {% for job in site.jobs %}
   <li>
-    <a href="">
+    <a href="{{ job.url }}">
       <p>{{ job.title }}</p>
       <p>{{ job.location }}</p>
     </a>

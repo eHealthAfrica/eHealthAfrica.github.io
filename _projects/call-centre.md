@@ -28,7 +28,7 @@ In the three countries where it has been deployed (Sierra Leone and then later G
 
 Our team in Berlin developed the desktop web application (see below for technical details), while eHA worked onsite with local telcos and HR companies to put together the physical centres and staff. Installing servers and getting the required network connectivity was no small feat in itself (although the latter proved easier in Guinea, where the centre happened to be across the street from a bank, and could piggy-back its fibre connection).
 
-> “About a week after I began working at eHAGI, I was deployed to Sierra Leone. My first task when I got there was to screw legs onto all the tables of the new call centre.” Nils Kaiser, Product Owner
+> “About a week after I began working at eHAGI, I was deployed to Sierra Leone. My first task when I got there? Screwing legs onto all the tables of the new call centre.” Nils Kaiser, Product Owner
 
 The call centres were set up to respond to four types of call:
 

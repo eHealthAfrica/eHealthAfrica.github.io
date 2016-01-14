@@ -23,3 +23,7 @@
   }
 }
 
+@mixin large-type {
+  font-size: $step / 1.2;
+  line-height: $step * 1.333;
+}

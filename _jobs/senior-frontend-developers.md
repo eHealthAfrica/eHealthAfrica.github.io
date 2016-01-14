@@ -1,8 +1,10 @@
 ---
-layout: job
+layout: default
 title: Senior Frontend Developers
 location: Berlin / Kano
 ---
+
+# Senior Frontend Developers
 
 ## Help build great tech for hard places by writing awesome code!
 

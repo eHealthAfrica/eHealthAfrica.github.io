@@ -35,11 +35,10 @@ h2 {
 }
 
 .large-type {
-  font-size: $step / 1.2;
-  line-height: $step * 1.333;
+  @include large-type;
 }
 
-a, a:visited {
+a[href], a[href]:visited {
   color: $text-color;
   border-bottom: 1px solid;
   text-decoration: none;
