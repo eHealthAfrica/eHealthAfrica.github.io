@@ -60,7 +60,7 @@ body .hero {
     margin: 0 - $step*2 0 - $step*.5 $step;
     padding-top: $step*10;
 
-    @include media-query('large') {
+    @include media-query('medium') {
       margin: 0 - $step*2 calc(#{$page-width * .5} - 50vw) $step*2;
       padding: $step*10 calc(50vw - #{$page-width * .5}) $step*2;
     }

@@ -15,6 +15,10 @@
 
     color: white;
 
+    a, a:visited {
+      color: white;
+    }
+
     .github-logo {
       display: block;
       margin: $step*2 auto 0;
@@ -57,7 +61,7 @@
         }
       }
 
-      @include media-query('large') {
+      @include media-query('medium') {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -95,7 +99,7 @@
       }
     }
 
-    @include media-query('large') {
+    @include media-query('medium') {
 
       ul {
         display: flex;

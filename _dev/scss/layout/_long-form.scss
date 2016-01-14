@@ -15,7 +15,7 @@ $longform-hero-height: 500px;
     font-weight: bold;
   }
 
-  @include media-query('large') {
+  @include media-query('medium') {
     p, blockquote, ul, li {
       @include large-type;
     }

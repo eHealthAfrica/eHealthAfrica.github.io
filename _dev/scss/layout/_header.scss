@@ -50,7 +50,7 @@
   }
 }
 
-@include media-query(large) {
+@include media-query(medium) {
   .main-header {
     padding: 0 calc(50% - #{$page-width * .5});
     display: flex;
