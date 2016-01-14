@@ -101,7 +101,6 @@
     @include media-query('large') {
 
       ul {
-        margin: 0 $step*4;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -109,6 +108,7 @@
 
       li {
         flex: 1 1 50%;
+        padding-left: $step*4;
       }
     }
   }}

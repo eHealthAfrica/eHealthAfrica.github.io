@@ -9,10 +9,6 @@ author:
   name: Adam Butler
   email: adam.butler@ehealthafrica.org
 
-# Grunt handles images and assets.
-# exclude: ['img', 'css', 'js', 'fonts',
-#          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
-
 exclude: ['README.md']
 
 include: ['.htaccess', 'CNAME']
@@ -26,6 +22,20 @@ collections:
     output: true
   projects:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
 
 # Markdown library
 markdown: kramdown
