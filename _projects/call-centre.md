@@ -37,7 +37,7 @@ The call centres were set up to respond to four types of call:
 * ambulances needing information about an infection or death
 * callers asking for health advice
 
-On receiving a call from a relative or patient, the operators used our application to quickly and efficiently record all the requisite information, such as symptoms, contact details, etc. If necessary, they would also record the names of everyone with whom the infected person had contact, so that surveillance teams could commence contact tracing using our Sense mobile application. Dispatchers automatically received a filtered stream of alerts, and could use the app to send information to local teams via SMS.
+On receiving a call from a relative or patient, the operators used our application to quickly and efficiently record all the requisite information, such as symptoms, contact details, etc. A major step up for the Ebola response was that the Surveillance and Burial sections of the regional District Ebola Response Centers automatically received a filtered stream of alerts, and could use the app to send information to local teams via SMS.
 
 ![Surveillance Alert centre](/img/call-centre-surveillance.jpg)
 
