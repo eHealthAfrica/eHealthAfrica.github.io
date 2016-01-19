@@ -2,8 +2,12 @@ $font-family: lato, sans-serif;
 $body-font-size: 16px;
 
 $body-font-size: $body-font-size;
-$body-line-height: $step;
+$body-line-height: 1.5;
 $body-font-weight: 300;
+
+// this is the magic number, the root of our vertical rhythm
+// all spacing derives from here
+$step: 1.5rem;
 
 body {
   color: $text-color;

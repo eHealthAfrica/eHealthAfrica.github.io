@@ -9,3 +9,12 @@ html {
 body {
   color: $text-color;
 }
+
+figure {
+  margin: 0;
+
+  caption {
+    display: block;
+    font-size: .8rem;
+  }
+}
