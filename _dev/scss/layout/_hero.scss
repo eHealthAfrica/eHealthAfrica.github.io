@@ -20,21 +20,21 @@ body .hero {
     text-align: left;
   }
 
-  h2 {
-    font-weight: normal;
-  }
-
   p {
     @extend .large-type;
   }
 
   @include media-query('large') {
-    padding-top: $step*8;
-    padding-bottom: $step*4;
+
+    padding-top: $step*12;
 
     h1, h2, p {
-      padding-left: 40%;
+      padding-right: 35%;
       margin-bottom: $step*2;
+    }
+
+    p:last-child, h2:last-child {
+      margin-bottom: 0;
     }
 
     h1 {
@@ -48,6 +48,10 @@ body .hero {
 
   .call-centre & {
     background-image: url(/img/hero-call-centre.jpg);
+  }
+
+  .sense-followup & {
+    background-image: url(/img/hero-sense-followup@2x.jpg);
   }
 
   .jobs & {

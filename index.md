@@ -7,7 +7,7 @@ description: Health tech for tough places
 
 <section class="hero">
 
-# eHealth Africa Global Informatics
+# eHealth Africa Global Health Informatics
 
 ## We build health tech for tough places
 

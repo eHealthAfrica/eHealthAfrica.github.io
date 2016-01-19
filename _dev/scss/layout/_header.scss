@@ -11,43 +11,45 @@
 
 .mh__logo {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: $step*.5 0;
+  // left: 50%;
+  // transform: translateX(-50%);
+  width: $step*6;
+  margin: $step $step*.5 $step*.5;
 }
 
 .mh__nav {
-  padding: $step*.25 $step*.5;
-  background-color: white;
-  display: flex;
+  padding: $step*.5;
+  // background-color: white;
+  // display: flex;
 
   a {
-    display: block;
-    flex: 1 1 auto;
-    border-bottom: 0;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+    // display: block;
+    // flex: 1 1 auto;
+    // border-bottom: 0;
+    // text-transform: uppercase;
+    // font-weight: bold;
+    // text-align: center;
 
-    &:first-of-type {
-      text-align: left;
-    }
-    &:last-of-type {
-      text-align: right;
-    }
+    // &:first-of-type {
+    //   text-align: left;
+    // }
+    // &:last-of-type {
+    //   text-align: right;
+    // }
   }
 
   & a, & a:visited {
-    color: $brand-color;
+    margin-right: $step;
+    color: white;
   }
 
-  .projects & a, .projects & a:visited {
-    color: $projects-color;
-  }
+  // .projects & a, .projects & a:visited {
+  //   color: $projects-color;
+  // }
 
-  .jobs & a, .jobs & a:visited {
-    color: $jobs-colour;
-  }
+  // .jobs & a, .jobs & a:visited {
+  //   color: $jobs-colour;
+  // }
 }
 
 @include media-query(medium) {
@@ -69,7 +71,7 @@
 
     a {
       display: inline-block;
-      margin-left: $step*4;
+      margin-left: $step*2;
       border-bottom: 1px solid transparent;
       text-transform: none;
       font-weight: normal;
