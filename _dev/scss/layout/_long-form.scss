@@ -31,6 +31,10 @@ $longform-hero-height: 500px;
         @include large-type;
       }
 
+      h2 {
+        margin-top: $step*2;
+      }
+
       img {
         margin-left: 0;
         margin-right: 0;

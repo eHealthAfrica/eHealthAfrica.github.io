@@ -1,4 +1,11 @@
 .homepage {
+
+  @include media-query(large) {
+    .hero h1 {
+      padding-right: 50%;
+    }
+  }
+
   h1 {
     font-size: $step;
     text-align: center;
@@ -72,44 +79,6 @@
           flex: 0 0 calc(50% - #{$step*2});
           margin: $step;
         }
-      }
-    }
-  }
-
-  .contact {
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    li, li p {
-      margin: 0;
-    }
-    li {
-      margin-bottom: $step*2;
-
-      h2 {
-        margin: 0;
-        font-size: $body-font-size;
-      }
-
-      a {
-        display: inline-block;
-        margin-top: $step;
-      }
-    }
-
-    @include media-query('medium') {
-
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
-
-      li {
-        flex: 1 1 50%;
-        padding-left: $step*4;
       }
     }
   }
