@@ -2,34 +2,45 @@ $longform-hero-height: 500px;
 
 .long-form {
 
-  img {
-    margin-left: 0 - $step*.5;
-    margin-right: 0 - $step*.5;
-    max-width: calc(100% + #{$step});
-  }
-
-  blockquote {
-    color: $projects-color;
-    margin: 0 0 $step;
-    font-style: italic;
-    font-weight: bold;
-  }
-
-  @include media-query('medium') {
-    p, blockquote, ul, li {
-      @include large-type;
-    }
-
+  article {
     img {
-      margin-left: 0;
-      margin-right: 0;
-      max-width: 100%;
+      margin-left: 0 - $step*.5;
+      margin-right: 0 - $step*.5;
+      max-width: calc(100% + #{$step});
     }
 
     blockquote {
-      margin-left: $step*2;
-      margin-right: $step*2;
+      color: $projects-color;
+      margin: 0 0 $step;
+      font-style: italic;
+      font-weight: bold;
+
+      & cite {
+        display: block;
+        margin: 0;
+        font-weight: normal;
+
+        &:before {
+          content: '– ';
+        }
+      }
+    }
+
+    @include media-query('medium') {
+      p, blockquote, ul, li {
+        @include large-type;
+      }
+
+      img {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+      }
+
+      blockquote {
+        margin-left: $step*2;
+        margin-right: $step*2;
+      }
     }
   }
-
 }
