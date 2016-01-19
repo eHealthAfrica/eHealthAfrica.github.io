@@ -9,5 +9,17 @@ $(function () {
     var $hero = $('<section></section>').addClass('hero')
     $hero.append($heading).append($sub).prependTo($article)
   }
+
+  // convert alt attributes to captions
+  $('article img').each(function () {
+    if ($(this).attr('alt')) {
+      var $img = $(this)
+      var $figure = $('<figure></figure>')
+        .append($('<caption></caption')
+          .text($img.attr('alt')))
+        .insertAfter($img)
+      $img.detach().prependTo($figure)
+    }
+  })
 })
 
