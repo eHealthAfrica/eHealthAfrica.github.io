@@ -5,7 +5,7 @@ title: Call Centre
 ---
 
 <section class="hero">
-# Case Study: Call Centre
+# Call Centre
 
 The application and infrastructure that played a key role in the fight against the West African Ebola epidemic
 </section>
@@ -14,11 +14,11 @@ The World Health Organisation described the Ebola outbreak that began in Decembe
 
 Of these three countries, Sierra Leone was the one with the highest number of reported cases. When the outbreak began, the government repurposed an exisiting healthcare service as an emergency hotline. Callers could report sick patients, possible Ebola cases, and deaths; they could also get access to health information. But technically, the hotline was severely limited: it consisted of one phone per mobile provider, which meant that the number would be engaged if you tried to call while someone else on your provider was already connected. In addition, all the data collection was paper-based.
 
-![Hotline poster](/img/call-centre-poster.jpg)
+![A poster for the 117 hotline to the Call Centre in Sierra Leone](/img/call-centre-poster.jpg)
 
 In September 2014, eHealth teamed up with Sierra Leone telcom Afcom to improve the hotline, and one month later a full, software-based call centre went live with 52 operators, using the first iteration of our call centre application.
 
-![Freetown Call Centre interior view](/img/call-centre-interior.jpg)
+![Interior view of the Freetown Call Centre](/img/call-centre-interior.jpg)
 
 The primary method of Ebola outbreak control is to locate and isolate any infected individuals, then track down everyone who has come into contact with them, and keep them under observation for 21 days. A system that allows the timely and accurate reporting of possible cases is therefore vital.
 
@@ -39,7 +39,7 @@ The call centres were set up to respond to four types of call:
 
 On receiving a call from a relative or patient, the operators used our application to quickly and efficiently record all the requisite information, such as symptoms, contact details, etc. A major step up for the Ebola response was that the Surveillance and Burial sections of the regional District Ebola Response Centers automatically received a filtered stream of alerts, and could use the app to send information to local teams via SMS.
 
-![Surveillance Alert centre](/img/call-centre-surveillance.jpg)
+![A surveillance alert centre](/img/call-centre-surveillance.jpg)
 
 The app also assisted the operators as they provided health information, or as they guided ambulances that were trying to locate victims.
 
@@ -47,7 +47,7 @@ Supervisors used the app to generate reports, implement control mechanisms for q
 
 At the height of the outbreak, the 3 call centres were handling a combined total of around 15,000 calls per day. Since then, this number has decreased considerably, but the centres are still operational, and have evolved into more general helplines for people people reporting illness and death, or seeking health advice.
 
-![Call Centre operator](/img/call-centre-smiling.jpg)
+![Lilian James, call centre operator](/img/call-centre-smiling.jpg)
 
 ## Technical details
 

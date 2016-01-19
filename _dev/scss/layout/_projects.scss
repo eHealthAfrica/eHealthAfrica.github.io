@@ -1,0 +1,13 @@
+.projects {
+
+  .hero {
+    h1 {
+      &:before {
+        content: 'Case Study:';
+        display: block;
+        line-height: 1;
+        font-weight: normal;
+      }
+    }
+  }
+}
