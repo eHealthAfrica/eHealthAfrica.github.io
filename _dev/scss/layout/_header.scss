@@ -1,59 +1,110 @@
-.main-header {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  width: 100%;
-}
-
 .main-header .mh__home-link {
   border: 0;
 }
 
 .mh__logo {
-  position: relative;
-  // left: 50%;
-  // transform: translateX(-50%);
+  position: absolute;
   width: $step*6;
   margin: $step $step*.5 $step*.5;
 }
 
 .mh__nav {
-  padding: $step*.5;
-  // background-color: white;
-  // display: flex;
-
-  a {
-    // display: block;
-    // flex: 1 1 auto;
-    // border-bottom: 0;
-    // text-transform: uppercase;
-    // font-weight: bold;
-    // text-align: center;
-
-    // &:first-of-type {
-    //   text-align: left;
-    // }
-    // &:last-of-type {
-    //   text-align: right;
-    // }
-  }
-
   & a, & a:visited {
-    margin-right: $step;
     color: white;
   }
+}
 
-  // .projects & a, .projects & a:visited {
-  //   color: $projects-color;
-  // }
+@include max-media-query(medium) {
+  body {
+    padding-top: $step*6;
+    transform: translateY(calc(-#{$step*6} - 3px));
+    transition: transform .3s ease-in-out;
 
-  // .jobs & a, .jobs & a:visited {
-  //   color: $jobs-colour;
-  // }
+    &.nav-visible {
+      transform: translateY(0);
+    }
+  }
+
+  .mh__show-nav {
+    position: absolute;
+    right: $step*.5;
+    top: $step*7;
+    width: $step*2;
+    height: $step*2;
+    padding: $step*.5;
+    border-width: 0 !important;
+    text-decoration: none;
+
+    span, span:before, span:after {
+      position: absolute;
+      display: block;
+      content: '';
+      transition: transform .5s ease-in-out;
+      cursor: pointer;
+      border-radius: 1px;
+      height: 3px;
+      width: $step;
+      background: white;
+    }
+    span:before {
+      top: $step*.333;
+    }
+    span:after {
+      bottom: $step*.333;
+    }
+
+    .nav-visible & {
+      span {
+        background-color: transparent;
+      }
+      span:before, span:after {
+        top: 0;
+      }
+      span:before {
+        transform: rotate(45deg);
+      }
+      span:after {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  .mh__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    a {
+      display: block;
+      padding: $step*.5;
+
+      background-color: desaturate($brand-colour, 10%);
+      &:active {
+        background-color: $brand-colour;
+      }
+      .jobs & {
+        background-color: desaturate($jobs-colour, 10%);
+        &:active {
+          background-color: $jobs-colour;
+        }
+      }
+      .projects & {
+        background-color: desaturate($projects-colour, 10%);
+        &:active {
+          background-color: $projects-colour;
+        }
+      }
+    }
+  }
 }
 
 @include media-query(medium) {
   .main-header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
     padding: 0 calc(50% - #{$page-width * .5});
     display: flex;
     align-items: center;
@@ -63,21 +114,25 @@
     transform: none;
     flex: 0 0 auto;
   }
+  .mh__show-nav {
+    display: none;
+  }
   .mh__nav, .projects .mh__nav, .jobs .mh__nav {
     flex: 1 1 auto;
     display: inline-block;
+    padding: $step*.5;
     text-align: right;
     background-color: transparent;
 
     a {
       display: inline-block;
-      margin-left: $step*2;
       border-bottom: 1px solid transparent;
-      text-transform: none;
-      font-weight: normal;
 
-      &, &:visited {
-        color: white;
+      &:not(:first-of-type) {
+        margin-left: $step;
+      }
+      &:not(:last-of-type) {
+        margin-right: $step;
       }
 
       &:hover {

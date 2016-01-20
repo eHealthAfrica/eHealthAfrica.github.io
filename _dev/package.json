@@ -1,5 +1,5 @@
 {
-  "name": "eHealth Africa Global Informatics",
+  "name": "ehealthafrica.github.io",
   "private": false,
   "version": "0.0.0",
   "description": "eHA Global Informatics website",
@@ -28,7 +28,8 @@
     "grunt-usemin": "~2.4.0",
     "jshint-stylish": "~0.4.0",
     "load-grunt-tasks": "~0.6.0",
-    "time-grunt": "~0.4.0"
+    "time-grunt": "~0.4.0",
+    "fastclick": "~1.0.5"
   },
   "engines": {
     "node": ">=0.8.0"

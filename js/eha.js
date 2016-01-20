@@ -1,1 +1,28 @@
-!function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i="function"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error("Cannot find module '"+g+"'");throw j.code="MODULE_NOT_FOUND",j}var k=c[g]={exports:{}};b[g][0].call(k.exports,function(a){var c=b[g][1][a];return e(c?c:a)},k,k.exports,a,b,c,d)}return c[g].exports}for(var f="function"==typeof require&&require,g=0;g<d.length;g++)e(d[g]);return e}({1:[function(a,b,c){var d=window.$;d(function(){if(d("html").hasClass("jobs")&&0===d(".hero").length){var a=d("article"),b=d("article > h1").first().detach(),c=d("article > h2").first().detach(),e=d("<section></section>").addClass("hero");e.append(b).append(c).prependTo(a)}d("article img").each(function(){if(d(this).attr("alt")){var a=d(this),b=d("<figure></figure>").append(d("<caption></caption").text(a.attr("alt"))).insertAfter(a);a.detach().prependTo(b)}})})},{}]},{},[1]);
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var $ = window.$
+
+$(function () {
+  // add a hero section to job adverts
+  if ($('html').hasClass('jobs') && $('.hero').length === 0) {
+    var $article = $('article')
+    var $heading = $('article > h1').first().detach()
+    var $sub = $('article > h2').first().detach()
+    var $hero = $('<section></section>').addClass('hero')
+    $hero.append($heading).append($sub).prependTo($article)
+  }
+
+  // convert alt attributes to captions
+  $('article img').each(function () {
+    if ($(this).attr('alt')) {
+      var $img = $(this)
+      var $figure = $('<figure></figure>')
+        .append($('<caption></caption')
+          .text($img.attr('alt')))
+        .insertAfter($img)
+      $img.detach().prependTo($figure)
+    }
+  })
+})
+
+
+},{}]},{},[1]);
