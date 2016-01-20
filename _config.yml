@@ -20,7 +20,7 @@ show_drafts: true
 collections:
   jobs:
     output: true
-  projects:
+  case-studies:
     output: true
 
 defaults:
@@ -33,7 +33,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "projects"
+      type: "case-studies"
     values:
       layout: "default"
 

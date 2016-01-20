@@ -15,13 +15,18 @@
 }
 
 @include max-media-query(medium) {
+
+  // for mobile nav, we transform the entire body up over the top of it
+  // then transition down on burger click
   body {
     padding-top: $step*6;
     transform: translateY(calc(-#{$step*6} - 3px));
     transition: transform .3s ease-in-out;
+    margin-bottom: calc(-#{$step*6} - 3px);
 
     &.nav-visible {
       transform: translateY(0);
+      margin-bottom: 0;
     }
   }
 
