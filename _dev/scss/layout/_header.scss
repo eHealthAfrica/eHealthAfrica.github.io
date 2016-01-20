@@ -110,7 +110,8 @@
     align-items: center;
   }
   .mh__logo {
-    left: 0;
+    top: 0;
+    left: calc(50% - #{$page-width / 2});
     transform: none;
     flex: 0 0 auto;
   }
@@ -120,6 +121,7 @@
   .mh__nav, .projects .mh__nav, .jobs .mh__nav {
     flex: 1 1 auto;
     display: inline-block;
+    margin-top: $step;
     padding: $step*.5;
     text-align: right;
     background-color: transparent;
