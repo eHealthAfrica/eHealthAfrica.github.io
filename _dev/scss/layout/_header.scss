@@ -79,20 +79,20 @@
       display: block;
       padding: $step*.5;
 
-      background-color: desaturate($brand-colour, 10%);
+      background-color: desaturate($brand-color, 10%);
       &:active {
-        background-color: $brand-colour;
+        background-color: $brand-color;
       }
       .jobs & {
-        background-color: desaturate($jobs-colour, 10%);
+        background-color: desaturate($jobs-color, 10%);
         &:active {
-          background-color: $jobs-colour;
+          background-color: $jobs-color;
         }
       }
       .projects & {
-        background-color: desaturate($projects-colour, 10%);
+        background-color: desaturate($case-studies-color, 10%);
         &:active {
-          background-color: $projects-colour;
+          background-color: $case-studies-color;
         }
       }
     }
