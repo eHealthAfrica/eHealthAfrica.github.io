@@ -259,6 +259,7 @@ module.exports = function (grunt) {
         options: {
           remote: 'git@github.com:eHealthAfrica/eHealthAfrica.github.io.git',
           branch: 'master',
+          dir: '<%= paths.dist %>',
           commit: true,
           push: true
         }
