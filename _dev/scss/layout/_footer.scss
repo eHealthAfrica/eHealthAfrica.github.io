@@ -1,5 +1,5 @@
 footer {
-  padding: $step*2;
+  padding: $step*2 $step*.5;
   background-color: #333344;
 
   &, h2, a[href], a[href]:visited {
@@ -29,6 +29,7 @@ footer {
   }
 
   @include media-query('medium') {
+    padding: $step*2;
 
     ul {
       display: flex;

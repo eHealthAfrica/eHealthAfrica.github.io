@@ -94,7 +94,7 @@
           background-color: $jobs-color;
         }
       }
-      .projects & {
+      .case-studies & {
         background-color: desaturate($case-studies-color, 10%);
         &:active {
           background-color: $case-studies-color;
