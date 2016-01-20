@@ -45,6 +45,10 @@ body .hero {
     background-image: url(/img/hero-homepage.jpg);
   }
 
+  .case-studies & {
+    background-image: url(/img/hero-case-studies.jpg);
+  }
+
   .call-center & {
     background-image: url(/img/hero-call-center.jpg);
   }
@@ -59,7 +63,7 @@ body .hero {
 
   // when there are hero elements on single articles such as project case studies or jobs
   // we need to do some calc fu to make the element go full width
-  .long-form &, .jobs & {
+  .long-form &, .jobs &, .case-studies & {
     margin: 0 - $step*2 0 - $step*.5 $step;
     padding-top: $step*10;
 

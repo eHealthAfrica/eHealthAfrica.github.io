@@ -1,0 +1,49 @@
+.card-list {
+  list-style: none;
+
+  &, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: $step;
+  }
+
+  a[href] {
+    position: relative;
+    display: block;
+    background-color: $brand-color;
+    padding: $step;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.3);
+
+    &:hover {
+      top: -1px;
+      box-shadow: 0 3px 1px rgba(0,0,0,0.3);
+    }
+
+    p {
+      margin: 0;
+      color: white;
+
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @include media-query('medium') {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin: 0 - $step;
+
+    li {
+      flex: 0 0 calc(50% - #{$step*2});
+      margin: $step;
+    }
+  }
+}
+
