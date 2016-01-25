@@ -16,7 +16,7 @@
   }
 
   .open-source {
-    background-image: url(/img/bg-open-source.jpg);
+    @include responsiveBGImage('bg-open-source');
     background-size: cover;
     background-position: center;
 

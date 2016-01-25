@@ -27,3 +27,16 @@
   font-size: $step / 1.2;
   line-height: $step * 1.333;
 }
+
+@mixin responsiveBGImage($name) {
+  background-image: url('/img/$name-320');
+  background-image: -webkit-image-set(url('/img/#{$name}-320.jpg') 1x, url('/img/#{$name}-640.jpg') 2x);
+  @include media-query(small) {
+    background-image: url('/img/$name-640');
+    background-image: -webkit-image-set(url('/img/#{$name}-640.jpg') 1x, url('/img/#{$name}-1280.jpg') 2x);
+  }
+  @include media-query(medium) {
+    background-image: url('/img/$name-1280');
+    background-image: -webkit-image-set(url('/img/#{$name}-1280.jpg') 1x, url('/img/#{$name}-2560.jpg') 2x);
+  }
+}

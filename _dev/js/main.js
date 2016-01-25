@@ -26,6 +26,21 @@ $(function () {
     }
   })
 
+  // add srcset attribute to img tags, where possible, and include alternative URLs
+  if (window.feature.srcset) {
+    $('img').each(function () {
+      var $img = $(this)
+      var src = $img.attr('src')
+
+      // 320, 640, 1280, 2560
+
+
+      if (imageExists(src, '@2x')) {
+
+      }
+    })
+  }
+
   // show/hide nav on mobile
   $('.js-show-nav').click(function () {
     $('body').toggleClass('nav-visible')
@@ -41,4 +56,8 @@ function scrollTo ($el) {
   $('html,body').animate({
     scrollTop: $el.offset().top
   }, 'fast')
+}
+
+function imageExists (src, variant) {
+  return true;
 }

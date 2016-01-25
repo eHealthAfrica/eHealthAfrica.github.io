@@ -42,23 +42,23 @@ body .hero {
   }
 
   .homepage & {
-    background-image: url(/img/hero-homepage.jpg);
+    @include responsiveBGImage('hero-homepage');
   }
 
   .case-studies & {
-    background-image: url(/img/hero-case-studies.jpg);
+    @include responsiveBGImage('hero-case-studies');
   }
 
   .call-center & {
-    background-image: url(/img/hero-call-center.jpg);
+    @include responsiveBGImage('hero-call-center');
   }
 
   .sense-followup & {
-    background-image: url(/img/hero-sense-followup@2x.jpg);
+    @include responsiveBGImage('hero-sense-followup');
   }
 
   .jobs & {
-    background-image: url(/img/hero-jobs.jpg);
+    @include responsiveBGImage('hero-jobs');
   }
 
   // when there are hero elements on single articles such as project case studies or jobs
