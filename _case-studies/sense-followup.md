@@ -3,7 +3,7 @@ class: long-form
 layout: default
 title: Sense Followup
 description: Optimising the workflow of contact tracers in the West African Ebola epidemic
-image: /img/hero-sense-followup.jpg
+image: /img/list-sense-followup.jpg
 ---
 
 <section class="hero">

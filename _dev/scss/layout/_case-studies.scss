@@ -5,6 +5,7 @@
 
   a[href] {
     display: flex;
+    position: relative;
     flex-direction: column;
     align-content: flex-end;
     width: 100%;
@@ -13,7 +14,20 @@
 
     background-size: cover;
 
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #000;
+      opacity: 0.4;
+    }
+
     h1, p {
+      position: relative;
+      z-index: 2;
       color: white;
     }
 

@@ -3,7 +3,7 @@ class: long-form
 layout: default
 title: Call Center
 description: The application and infrastructure that played a key role in the fight against the West African Ebola epidemic
-image: /img/hero-call-center.jpg
+image: /img/list-call-center.jpg
 ---
 
 <section class="hero">
