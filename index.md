@@ -1,19 +1,11 @@
 ---
 layout: homepage
 title: eHealth Africa Global Informatics
-description: Health tech for tough places
+subtitle: We build health tech for tough places
+description: In the last year we’ve built systems for **Nigeria**, **Sierra Leone**, **Guinea** and **Liberia** that have helped tackle **Ebola**, **Polio**, **Sleeping Sickness** and **vaccine management**.
 
 ---
 
-<section class="hero">
-
-# eHealth Africa Global Health Informatics
-
-## We build health tech for tough places
-
-In the last year we’ve built systems for **Nigeria**, **Sierra Leone**, **Guinea** and **Liberia** that have helped tackle **Ebola**, **Polio**, **Sleeping Sickness** and **vaccine management**.
-
-</section>
 <section class="intro">
 
 eHealth Africa Global Informatics is the tech subdivision of eHealth Africa, a US-African NGO. We develop **GIS solutions**, **mobile apps** for field workers, and **web-based dashboards** for data management and analysis.

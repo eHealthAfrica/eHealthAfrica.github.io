@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% comment %} Add any classes specified in the Front Matter plus the file name as classes {% endcomment %}
+{% comment %} Add the file name as classes, plus any specified in front matter {% endcomment %}
 <html class="{{ page.class }} {{ page.url | replace:'/',' ' | replace:'.html',''  }}">
 
   {% include head.html %}
@@ -9,7 +9,16 @@
     {% include header.html %}
 
     <article class="main">
-        {{ content }}
+      <section class="hero">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <h2>{{ page.subtitle }}</h2>
+        {% endif %}
+        {% if page.description %}
+          {{ page.description | markdownify }}
+        {% endif %}
+      </section>
+      {{ content }}
     </article>
 
     {% include footer.html %}

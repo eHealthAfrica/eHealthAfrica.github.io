@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Product Designer
+description: Help strengthen global public health systems and fight diseases like Ebola
 location: Berlin
 ---
-
-# Product Designer
-
-## Help strengthen global public health systems and fight diseases like Ebola
 We’re an American-Nigerian NGO specialised on the development and deployment of tech for public health in West Africa. We tackle diseases and health issues such as the Ebola virus, polio, maternal health, nutrition, and vaccination delivery.
 
 Our tech team of 35 is located in Kano and Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea. We’re looking for someone to join us, starting as soon as possible.

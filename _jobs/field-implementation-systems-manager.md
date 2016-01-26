@@ -1,11 +1,8 @@
 ---
 title: Field Implementation Systems Manager
+description: Using software to fight Ebola and strengthen health systems in West Africa
 location: Freetown / Monrovia
 ---
-
-# Field Implementation Systems Manager
-
-## Using software to fight Ebola and strengthen health systems in West Africa!
 
 We’re an American-Nigerian NGO specialising in the development and deployment of tech for public health. Currently one of our main focuses is the development of tools to tackle the Ebola outbreak, help with post-outbreak measures and generally support health in West Africa. Our international software development team of 27 is located in Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea. We operate with a strong focus on __design practices__, pragmatic, __solution focused development of software__, and __creative problem solving__.
 

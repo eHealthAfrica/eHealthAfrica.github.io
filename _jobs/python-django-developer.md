@@ -1,11 +1,8 @@
 ---
 title: Python Django Developer
+description: Help build great tech for hard places by writing awesome code!
 location: Berlin / Kano
 ---
-
-# Python Django Developer
-
-## Help fight Ebola by writing awesome code!
 
 We’re an American-Nigerian NGO specialised on the development of software. Currently our main task is to develop a tool set to tackle the Ebola outbreak in West Africa. Our diverse Team of 20 is located in Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea.
 

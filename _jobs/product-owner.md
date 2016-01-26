@@ -1,11 +1,8 @@
 ---
 title: Product Owner
+description: Create software products to fight Ebola and strengthen health systems
 location: Berlin / Kano
 ---
-
-# Product Owner
-
-## Create software products to fight Ebola and strengthen health systems
 
 We’re an American-Nigerian NGO specialising in the development and deployment of tech for health. Currently one of our main focuses is the development of tools to tackle the Ebola outbreak, help with post-outbreak measures and generally support health in West Africa and Nigeria. Our international software development team of 27 is located in Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea.
 

@@ -6,12 +6,6 @@ description: Working towards the global eradication of the polio virus
 image: /img/list-sense-followup.jpg
 ---
 
-<section class="hero">
-# Polio Dashboard
-
-Working towards the global eradication of the polio virus
-</section>
-
 > Nigeria has made remarkable progress against polio, but continued vigilance is needed to protect these gains and ensure that polio does not return. Immunization and surveillance activities must continue to rapidly detect a potential re-introduction or re-emergence of the virus.
 ><cite>[WHO Removes Nigeria from Polio-Endemic List](WHO Removes Nigeria from Polio-Endemic List)</cite>
 

@@ -1,14 +1,9 @@
 ---
 layout: default
-title: eHealth Africa Global Informatics • Case Studies
+title: Case Studies
+description: Take a look at some of the projects we've been working on recently.
 ---
 
-<section class="hero">
-# Case Studies
-
-Take a detailed look at some of the projects we’ve been working on recently
-
-</section>
 <ul class="case-studies-list">
 {% for study in site.case-studies %}
   <li>
