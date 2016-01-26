@@ -31,14 +31,14 @@
 // assumes the existence of -320, -640, -1280 and -2560 appended files for background image
 // eg. angry-goat-320.jpg, angry-goat-640.jpg, angry-goat-1280.jpg and angry-goat-2560.jpg
 @mixin responsiveBGImage($name) {
-  background-image: url('/img/$name-320');
+  background-image: url('/img/#{$name}-320.jpg');
   background-image: -webkit-image-set(url('/img/#{$name}-320.jpg') 1x, url('/img/#{$name}-640.jpg') 2x);
   @include media-query(small) {
-    background-image: url('/img/$name-640');
+    background-image: url('/img/#{$name}-640.jpg');
     background-image: -webkit-image-set(url('/img/#{$name}-640.jpg') 1x, url('/img/#{$name}-1280.jpg') 2x);
   }
   @include media-query(medium) {
-    background-image: url('/img/$name-1280');
+    background-image: url('/img/#{$name}-1280.jpg');
     background-image: -webkit-image-set(url('/img/#{$name}-1280.jpg') 1x, url('/img/#{$name}-2560.jpg') 2x);
   }
 }
