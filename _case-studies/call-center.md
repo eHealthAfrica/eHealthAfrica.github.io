@@ -6,12 +6,6 @@ description: The application and infrastructure that played a key role in the fi
 image: /img/list-call-center.jpg
 ---
 
-<section class="hero">
-# Call Center
-
-The application and infrastructure that played a key role in the fight against the West African Ebola epidemic
-</section>
-
 The World Health Organisation described the Ebola outbreak that began in December 2013 in Guinea and subsequently spread to Sierra Leone and Liberia as “the most severe acute public health emergency seen in modern times”.
 
 Of these three countries, Sierra Leone was the one with the highest number of reported cases. When the outbreak began, the government repurposed an exisiting healthcare service as an emergency hotline. Callers could report sick patients, possible Ebola cases, and deaths; they could also get access to health information. But technically, the hotline was severely limited: it consisted of one phone per mobile provider, which meant that the number would be engaged if you tried to call while someone else on your provider was already connected. In addition, all the data collection was paper-based.

@@ -6,12 +6,6 @@ description: Optimising the workflow of contact tracers in the West African Ebol
 image: /img/list-sense-followup.jpg
 ---
 
-<section class="hero">
-# Sense Followup
-
-Optimising the workflow of contact tracers in the West African Ebola epidemic
-</section>
-
 > Contact tracing is an integral component of the overall strategy for controlling an outbreak of Ebola virus disease (EVD). Contact tracing is defined as the identification and follow-up of persons who may have come into contact with an infected person […] All potential contacts of Ebola cases should be identified and closely observed for 21 days. <cite>Contact Tracing During an Outbreak of Ebola Virus Disease, WHO</cite>
 
 The health workers on the ground were probably the single most important resource in the fight against the West Africa Ebola outbreak.  Their job was to travel from settlement to settlement looking for and keeping track of everyone who had come into contact with Ebola cases. These people are known as *contacts*, and the regular visits that are carried out during the 21 day risk period are known as *followups*. A followup consists of a series of questions concerning any possible symptoms, such as high temperature, headache, etc.
