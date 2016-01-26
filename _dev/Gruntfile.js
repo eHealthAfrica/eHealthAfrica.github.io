@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                 '../_includes/*.html',
                 '../_layouts/*.html',
                 '../_jobs/*.md',
-                '../_projects/*.md',
+                '../_case-studies/*.md',
                 '../img/**/*'],
         tasks: ['jekyll:server']
       }
