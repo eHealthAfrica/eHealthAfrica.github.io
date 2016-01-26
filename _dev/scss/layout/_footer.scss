@@ -28,27 +28,31 @@ footer {
     }
   }
 
-  @include media-query('medium') {
-    padding: $step*2;
+  @include media-query('small') {
+    padding: $step*2 $step;
 
     ul {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
     }
 
     li {
-      flex: 1 1 100%;
-
-      @include media-query(medium) {
-        flex: 1 1 50%;
-      }
-
-      @include media-query(large) {
-        flex: 1 1 25%;
-      }
+      flex: 0 0 auto;
+      width: 350px;
+      padding: 0 $step;
     }
   }
+
+  @include media-query('medium') {
+    ul {
+      justify-content: center;
+    }
+
+    li {
+      text-align: center;
+    }
+  }
+
 }
 
 .footer__copyright {
