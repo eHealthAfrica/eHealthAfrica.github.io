@@ -340,7 +340,7 @@ module.exports = function (grunt) {
     'cssmin',
     'browserify',
     'uglify:dist',
-    'imagemin'
+    // 'imagemin'
   ])
 
   grunt.registerTask('deploy', [
