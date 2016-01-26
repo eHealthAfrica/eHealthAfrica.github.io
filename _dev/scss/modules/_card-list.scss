@@ -16,6 +16,7 @@
     background-color: $brand-color;
     padding: $step;
     border-radius: 3px;
+    border-bottom: 0;
     box-shadow: 0 2px 1px rgba(0,0,0,0.3);
 
     &:hover {
