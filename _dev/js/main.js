@@ -74,7 +74,7 @@ $(function () {
 function scrollTo ($el) {
   $('html,body').animate({
     scrollTop: $el.offset().top
-  }, 'fast')
+  }, 300)
 }
 
 function checkFileExists (src) {
