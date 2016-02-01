@@ -3,7 +3,15 @@
   "private": false,
   "version": "0.0.0",
   "description": "eHA Global Informatics website",
-  "dependencies": {},
+  "scripts": {
+    "jobs2pdf": "./bin/jobs2pdf.js"
+  },
+  "dependencies": {
+    "duplexer": "^0.1.1",
+    "jekyll": "^3.0.0-beta1",
+    "split": "^1.0.0",
+    "through": "^2.3.8"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "~1.0.1",
@@ -29,7 +37,8 @@
     "jshint-stylish": "~0.4.0",
     "load-grunt-tasks": "~0.6.0",
     "time-grunt": "~0.4.0",
-    "fastclick": "~1.0.5"
+    "fastclick": "~1.0.5",
+    "markdown-pdf": "6.0.0"
   },
   "engines": {
     "node": ">=0.8.0"
