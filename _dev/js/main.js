@@ -1,12 +1,9 @@
 var attachFastClick = require('fastclick')
 var feature = require('./Feature')
-var createJobPDFs = require('./create-job-pdfs')
 var $ = window.$
 
 $(function () {
   attachFastClick(document.body)
-
-  createJobPDFs.init()
 
   // convert alt attributes to captions
   $('article img').each(function () {
