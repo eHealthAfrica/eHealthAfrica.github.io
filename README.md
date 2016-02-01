@@ -10,13 +10,22 @@ You can edit these files or add/delete jobs directly on Github. When adding new 
 
 ```
 ---
-title: Product Designer
-description: Help strengthen global public health systems and fight diseases like Ebola
-location: Berlin
+title: Senior Frontend Developers
+description: Using software to fight Ebola and strengthen health systems in West Africa
+department: Software Development 
+program:
+grade:
+reports-to:
+location: Berlin / Kano
+job-duration: 
 ---
 ```
 
 Alternatively you can clone the repository, edit the files locally and then push them.
+
+### Creating job PDFs
+
+The command `npm run jobs2pdf` will create PDF files for all of the Markdown files in `/_jobs`. Front matter variables will be displayed at the top of the PDF file, capitalised and with dashes replaced by spaces (eg. `job-duration` will become **Job Duration**).
 
 ## Development
 
