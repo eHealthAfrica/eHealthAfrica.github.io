@@ -10,15 +10,41 @@ $longform-hero-height: 500px;
     }
 
     blockquote {
-      color: $case-studies-color;
+      margin: $step 0;
+      padding: 0;
+
+      padding: $step*.5 0;
       margin: 0 0 $step;
+      border-left: $step*.1666 solid $case-studies-color;
+      margin-left: 0 - $step*.5;
+      margin-right: 0 - $step*.75;
+      padding-left: $step*.333;
+      padding-right: $step*.75;
       font-style: italic;
-      font-weight: bold;
+      background-color: #dddde3;
+
+      @include media-query(medium) {
+        padding-left: $step*.75;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: $step*.25 solid $case-studies-color;
+        color: #555;
+        border-radius: 0 6px 6px 0;
+      }
 
       & cite {
         display: block;
         margin: 0;
-        font-weight: normal;
+        font-style: normal;
+        font-weight: bold;
+
+        &, & a[href] {
+          color: white;
+        }
+
+        p {
+          border-left: 0;
+        }
 
         &:before {
           content: '– ';
@@ -41,10 +67,6 @@ $longform-hero-height: 500px;
         max-width: 100%;
       }
 
-      blockquote {
-        margin-left: $step*2;
-        margin-right: $step*2;
-      }
     }
   }
 }
