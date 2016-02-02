@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Product Designer
 description: Help strengthen global public health systems and fight diseases like Ebola
 location: Berlin
