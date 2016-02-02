@@ -1,0 +1,2 @@
+browserify js/main.js > .tmp/js/eha.js
+uglifyjs .tmp/js/eha.js -o ../js/eha.js

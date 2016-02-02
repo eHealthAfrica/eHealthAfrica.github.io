@@ -44,4 +44,4 @@ kramdown:
   parse_block_html: true
 #   extensions: ['fenced_code_blocks', 'smart']
 
-pygments: false
+highlighter: null

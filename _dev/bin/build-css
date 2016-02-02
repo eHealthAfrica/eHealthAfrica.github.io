@@ -1,0 +1,4 @@
+node-sass scss --output .tmp/css/
+postcss --use autoprefixer -r .tmp/css/*.css
+
+postcss --use cssnano -d ../css/ .tmp/css/*.css

@@ -1,0 +1,1 @@
+supervisor -e md -w .. -i _dev -n exit -x bash bin/build-html
