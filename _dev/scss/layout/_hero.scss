@@ -57,6 +57,10 @@ body .hero {
     @include responsiveBGImage('hero-sense-followup');
   }
 
+  .polio-dashboard & {
+    @include responsiveBGImage('hero-polio-dashboard');
+  }
+
   .jobs & {
     @include responsiveBGImage('hero-jobs');
   }
