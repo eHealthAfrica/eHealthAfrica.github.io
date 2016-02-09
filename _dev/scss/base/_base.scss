@@ -15,6 +15,7 @@ figure {
 
   caption {
     display: block;
-    font-size: .8rem;
+    font-size: $step*.5;
+    line-height: 1;
   }
 }
