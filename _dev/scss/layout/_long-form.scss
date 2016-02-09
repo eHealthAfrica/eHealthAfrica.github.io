@@ -53,7 +53,7 @@ $longform-hero-height: 500px;
     }
 
     @include media-query('medium') {
-      p, blockquote, ul, li {
+      p, h3, blockquote, ul, li {
         @include large-type;
       }
 

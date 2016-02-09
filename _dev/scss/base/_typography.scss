@@ -1,7 +1,6 @@
 $font-family: lato, sans-serif;
 $body-font-size: 16px;
 
-$body-font-size: $body-font-size;
 $body-line-height: 1.5;
 $body-font-weight: 300;
 
@@ -20,6 +19,11 @@ body {
 
 h1, h2, p, ul, input {
   margin: 0 0 $step;
+}
+
+h3 {
+  margin: 0;
+  font-size: $body-font-size;
 }
 
 p:last-of-type {
