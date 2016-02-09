@@ -11,7 +11,7 @@
     "watch-js": "bin/watch-js",
     "build-js": "bin/build-js",
     "watch-md": "bin/watch-md",
-    "dev": "bin/watch-css & bin/watch-js & bin/watch-md & bin/serve"
+    "dev": "bin/watch-scss & bin/watch-js & bin/watch-md & bin/serve"
   },
   "dependencies": {
   },
