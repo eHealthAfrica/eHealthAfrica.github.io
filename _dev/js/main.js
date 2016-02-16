@@ -4,18 +4,7 @@ var $ = window.$
 
 $(function () {
   attachFastClick(document.body)
-
-  // convert alt attributes to captions
-  $('article img').each(function () {
-    if ($(this).attr('alt')) {
-      var $img = $(this)
-      var $figure = $('<figure></figure>')
-        .append($('<caption></caption')
-          .text($img.attr('alt')))
-        .insertAfter($img)
-      $img.detach().prependTo($figure)
-    }
-  })
+  alt2Caption()
 
   $('img').each(function () {
     var $img = $(this)
@@ -60,6 +49,20 @@ $(function () {
     scrollTo($('.js-contact'))
   })
 })
+
+function alt2Caption () {
+  // convert alt attributes to captions
+  $('article img').each(function () {
+    if ($(this).attr('alt')) {
+      var $img = $(this)
+      var $figure = $('<figure></figure>')
+        .append($('<caption></caption')
+          .text($img.attr('alt')))
+        .insertAfter($img)
+      $img.detach().prependTo($figure)
+    }
+  })
+}
 
 function scrollTo ($el) {
   $('html,body').animate({
