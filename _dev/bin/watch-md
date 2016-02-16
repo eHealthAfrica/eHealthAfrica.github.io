@@ -1,1 +1,1 @@
-supervisor -e md -w .. -i _dev -n exit -x bash bin/build-html
+onchange '../**/*.md' --exclude=['**/_dev/**', '**/node_modules/**'] -- npm run build:html

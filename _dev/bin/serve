@@ -1,20 +1,2 @@
-#!/usr/bin/env node
-
-var express = require('express')
-var http = require('http')
-var app = express()
-
-var browserSync = require('browser-sync')
-var bs = browserSync({
-  logSnippet: false,
-  files: ['../css/*.css', '../js/*.js', '../img/*', '.jekyll/**/*.html']
-})
-app.use(require('connect-browser-sync')(bs))
-
-app.use(express.static('.tmp'))
-app.use(express.static('.jekyll'))
-
-var port = 3000
-http.createServer(app).listen(port, function () {
-  console.log('Listening on port ' + port + '...')
-})
+# weird use of multiple --server allows for multiple source directories
+browser-sync start --files '../css/*.css, ../js/*.js, ../img/*, .jekyll/**/*.html' --server .tmp --server .jekyll

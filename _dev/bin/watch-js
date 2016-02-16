@@ -1,1 +1,1 @@
-supervisor -e js -w js -n exit -x bash bin/build-js
+onchange 'js/*.js' -- npm run build:js
