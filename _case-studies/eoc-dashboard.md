@@ -75,8 +75,6 @@ The most complex and interesting aspect of the dashboard’s implementation has 
 
 Currently the dashboard is an Angular Single Page Application, backed by [Kazana](https://github.com/eHealthAfrica/kazana), our in-house data warehousing system. 
 
-![Screenshot of the EOC Dashboard](/img/eoc-dashboard-screenshot.jpg)
-
 ### Kazana
 
 Kazana evolved out of another of our projects that collects and analyses nutrition data. We realised that we could abstract large parts of that project and turn them into a re-usable system. It now provides the foundation for much of our work.
