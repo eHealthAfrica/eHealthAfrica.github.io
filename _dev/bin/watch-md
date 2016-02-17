@@ -1,1 +1,1 @@
-onchange '../**/*.md' --exclude=['**/_dev/**', '**/node_modules/**'] -- npm run build:html
+onchange '../**/*.md' '../img/*' --exclude=['**/_dev/**', '**/node_modules/**'] -- npm run build:html
