@@ -1,10 +1,12 @@
 <ul>
 {% for job in site.jobs %}
+  {% if job.draft != true %}
   <li>
     <a href="{{ job.url }}">
       <p>{{ job.title }}</p>
       <p>{{ job.location }}</p>
     </a>
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
