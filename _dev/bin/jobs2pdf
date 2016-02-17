@@ -7,6 +7,10 @@ var through = require('through')
 var duplexer = require('duplexer')
 
 fs.readdir('../_jobs/', function (err, files) {
+  if (err) {
+    return
+  }
+
   var md = files.filter(function (f) {
     return f.indexOf('.md') !== -1
   }).map(function (f) {
