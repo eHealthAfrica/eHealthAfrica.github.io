@@ -1,1 +1,1 @@
-onchange 'scss/*.scss' -- npm run build:css
+onchange 'scss/**/*.scss' -- npm run build:css
