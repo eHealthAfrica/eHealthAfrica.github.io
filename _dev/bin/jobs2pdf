@@ -8,7 +8,7 @@ var duplexer = require('duplexer')
 
 fs.readdir('../_jobs/', function (err, files) {
   if (err) {
-    return
+    throw err
   }
 
   var md = files.filter(function (f) {
