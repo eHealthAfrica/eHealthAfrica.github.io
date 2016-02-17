@@ -1,1 +1,1 @@
-onchange 'js/*.js' -- npm run build:js
+onchange 'js/**/*.js' -- npm run build:js
