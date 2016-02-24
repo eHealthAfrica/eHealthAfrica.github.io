@@ -3,17 +3,17 @@ draft: true
 class: long-form
 layout: default
 title: Guinea Connect
-description: A C
+description: A dashboard with aggregated data about health facilities activities, infrastructures and personnel.
 image: /img/IMG_2565.JPG
 ---
 
-As in most countries data integration, analysis and visualization in Guinea are handled by several different spreadsheets and text documents, using several different tools and formats. Data processes and workflows are still largely manual, labor-intensive, time-consuming, and not standardized. 
+Data collection, integration, analysis and visualization in Guinea were handled by several different spreadsheets and text documents, using several different tools and formats until early 2016. These processes and workflows were largely manual, labor-intensive, time-consuming, and not standardized, making it hard for the Ministry of health and their partners to use the data for informed decission making. 
 
-Guinea Connect is born as an idea in August 2015 with the mission of improving reporting, harmonisation and availability of healthcare data, activities and events, supporting decision making for the Ministry of Health and its partners to improve the quality and reach of care.
+Guinea Connect was born as an idea in August 2015 as the eHealth Africa team in Guinea wrote a proposal for an Integrated Community Health Post Project for the Paul G. Allen Family Foundation. What if we could use this opportunity of working very close to the lower levels of health care to improve reporting from the base, harmonise indicators and reduce the time data takes to reach the decission makers, all with the objective of improving the availability and quality of care? What if this data could be made available to other partners to support them in their programs? What if we could, in exchange, use their open data too?
 
-The Guinea Connect platform revolves around a central management dashboard that lists and maps health facilities and health care workers, as well as information for each of them: their monthly activity reports, details about the facility infrastructure and the personnel working on them... and is complemented by various modules including a Closed User Group Management to handle mobiles and tablets used by workers managed by the Ministry of Health, a Data Store to share and archive working documents, training modules or a Patient Records system. All of this information in one place, protected with password access and different access levels for different users and made available to other platforms like DHIS2 or iHRIS.
+The Guinea Connect platform revolves around a Central Management Dashboard that lists and maps health facilities and health care workers, as well as information for each of them: their monthly activity reports, details about the facility infrastructure and the personnel working on them, data analytics... This Central Management Dashboard, protected with a password that makes sure that each block of data is only available to the people with legitimate access rights to it, will be linked with other Public health decission making systems, like iHRIS and DHIS2. This symbiosis ensures data is synchronised among platforms and that efforts converge towards a common goal.
+
+To reinforce this mandate of convergence Guinea Connect also includes the management of a ministerial Closed User Group Management. We  handle the mobile phones and tablets used by health care workers and NGO workers under the umbrella of the Ministry of Health, making it possible to offer free calls among them and giving them free access to the Guinea Connect Dashboard and the forms they need to do data collection, so that their work is not affected by their phone credit. Te Closed User Group also lets us remotely install apllications, track lost devices and delete the data in them, so that information never falls in the wrong hands.
 
 In January 2015, eHA launched Guinea Connect as part of the Integrated Community Health Post pilot in the prefecture of Pita, by helping health facilities produce their very first digital monthly reports.
-
-The pilot programm sponsored by the Paul G. Allen Family Foundation, also entails refurbishing six Health Posts, building one Health Post, transforming the former health center building into a residential facility for center workers, and building a new suitable Health Center. eHA will temporarily support operations in all facilities and gradually hand over to a newly created Community Association, which will ensure sustainability. The association will be composed of members from existing community groups and the diaspora. 
 
