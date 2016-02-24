@@ -53,6 +53,10 @@ body .hero {
     @include responsiveBGImage('hero-call-center');
   }
 
+  .van & {
+    @include responsiveBGImage('hero-van');
+  }
+
   .sense-followup & {
     @include responsiveBGImage('hero-sense-followup');
   }
