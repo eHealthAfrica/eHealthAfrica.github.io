@@ -3,11 +3,11 @@ draft: true
 class: long-form
 layout: default
 title: Guinea Connect
-description: A dashboard with aggregated data about health facilities activities, infrastructures and personnel.
+description: Aggregating and sharing data about health facilities and their activities, infrastructures and personnel to support the decission making process in the Guinean public health systems and ultimately improving availability and quality of care.
 image: /img/IMG_2565.JPG
 ---
 
-Data collection, integration, analysis and visualization in Guinea were handled by several different spreadsheets and text documents, using several different tools and formats until early 2016. These processes and workflows were largely manual, labor-intensive, time-consuming, and not standardized, making it hard for the Ministry of health and their partners to use the data for informed decission making. 
+Until early 2016 data collection, integration, analysis and visualization in Guinea were handled by several different spreadsheets and text documents, using several different tools and formats until early 2016. These processes and workflows were largely manual, labor-intensive, time-consuming, and not standardized, making it hard for the Ministry of health and their partners to use the data for informed decission making. 
 
 Guinea Connect was born as an idea in August 2015 as the eHealth Africa team in Guinea wrote a proposal for an Integrated Community Health Post Project for the Paul G. Allen Family Foundation. What if we could use this opportunity of working very close to the lower levels of health care to improve reporting from the base, harmonise indicators and reduce the time data takes to reach the decission makers, all with the objective of improving the availability and quality of care? What if this data could be made available to other partners to support them in their programs? What if we could, in exchange, use their open data too?
 
