@@ -8,6 +8,8 @@ draft: true
 
 In 2012 the Federal Government of Nigeria (FGN) launched the **Saving One Million Lives Initiative** (SOML), to save one million women and children annually from dying from predominantly preventable diseases by 2015. This initiative included many objectives involving the expansion of vaccine stocks and supply chains, and improvements to logistics networks.
 
+> **Supply chains** are the series of steps involved in transporting products from manufacturers all the way to patients
+
 To this end, the **National Primary Health Care Development Agency** (NPHCDA) developed the first **Vaccine Stock Performance Management** (VSPM) Dashboard, an Excel template that is used to display physical stock counts next to inventory plans. It includes maximum and minimum stock levels for each Zone, State and LGA (Local Government Authority), to enable performance measurement and to facilitate planning. (For reference, Nigeria comprises 6 zones, 36 states, or 774 LGAs.)
 
 ## The existing process
@@ -25,8 +27,6 @@ This system has done a lot to improve visibility throughout the vaccine distribu
 ## Enter the VAN VSPM Dashboard
 
 The **Visibility and Analytics Network** (VAN) project is a global collaboration among leading supply chain experts, country representatives, and implementing partners from across Africa and India, with the intention of improving end-to-end visibility of all public health supply chain information. 
-
-> **Supply chains** are the series of steps involved in transporting products from manufacturers all the way to patients
 
 Higher visibility enables improved analysis, which facilitates a process of continual improvement within the supply chain processes – which, ultimately, saves lives.
 
