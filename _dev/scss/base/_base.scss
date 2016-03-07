@@ -19,3 +19,9 @@ figure {
     line-height: 1;
   }
 }
+
+hr {
+  margin: $step*2 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
