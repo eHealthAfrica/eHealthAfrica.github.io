@@ -61,6 +61,10 @@ body .hero {
     @include responsiveBGImage('hero-sense-followup');
   }
 
+  .sense-id & {
+    @include responsiveBGImage('hero-sense-id');
+  }
+
   .eoc-dashboard & {
     @include responsiveBGImage('hero-eoc-dashboard');
   }
