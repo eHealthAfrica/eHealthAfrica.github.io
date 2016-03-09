@@ -44,13 +44,13 @@ In 2012, we received funds from The Gates Foundation to build and manage **Emerg
 
 ## Polio Campaigns
 
-Each vaccination campaign is 4 days long, followed by a **mop-up** to cover any missed settlements. **Microplans** created by the local governments specify which settlements should be visited by which team on which day. Our GIS work has helped enormously with this microplanning by locating settlements that were previously being missed.
+Each vaccination campaign is 4 days long, followed by a **mop-up** to cover any missed settlements. **Microplans** created by the local governments specify which settlements should be visited by which team on which day, along with the target population of houses and children. Our GIS work has helped enormously with this microplanning by locating settlements that previously went unvisited.
 
-As they travel from settlement to settlement performing vaccinations and searching for cases, the campaign teams carry GPS-enabled phones, which eHA deploys — roughly 19,000 phones in all. After each child has been vaccinated, they are **fingermarked**.
+As they travel, the campaign teams carry GPS-enabled phones, which eHA deploys — roughly 19,000 phones in all. After each child has been vaccinated, they are **fingermarked**.
 
 ![A child being fingermarked after vaccination](/img/eoc-dashboard-fingermark.jpg)
 
-The fingermarks serve two purposes: they enable the teams to quickly check for any missed children, but they are also used by independent monitors who assess campaign quality by verifying the coverage a few days after its conclusion.
+These fingermarks serve two purposes: they enable the teams to quickly check for any missed children, but they are also used by independent monitors who assess campaign quality by verifying the coverage a few days after its conclusion.
 
 
 ## EOC Dashboard
