@@ -44,15 +44,18 @@ In 2012, we received funds from The Gates Foundation to build and manage **Emerg
 
 ## Polio Campaigns
 
-Each vaccination campaign is 4 days long, followed by a “mop-up” to cover any missed settlements. As they travel from settlement to settlement performing vaccinations and searching for cases, the campaign teams carry GPS-enabled phones, which eHA deploys — roughly 19,000 phones in all.
+Each vaccination campaign is 4 days long, followed by a **mop-up** to cover any missed settlements. **Microplans** created by the local governments specify which settlements should be visited by which team on which day. Our GIS work has helped enormously with this microplanning by locating settlements that were previously being missed.
 
-After each child has been vaccinated, the health workers “fingermark” them.
+As they travel from settlement to settlement performing vaccinations and searching for cases, the campaign teams carry GPS-enabled phones, which eHA deploys — roughly 19,000 phones in all. After each child has been vaccinated, they are **fingermarked**.
 
 ![A child being fingermarked after vaccination](/img/eoc-dashboard-fingermark.jpg)
 
+The fingermarks serve two purposes: they enable the teams to quickly check for any missed children, but they are also used by independent monitors who assess campaign quality by verifying the coverage a few days after its conclusion.
+
+
 ## EOC Dashboard
 
-In collaboration with the Data team of the National Emergency Operations Centre in Abuja, the Gates Foundation and Novel-T, we created a dashboard that displays and allows analysis of data relating to the campaigns. It is being used by the National EOC currently, and will be rolled out to state EOCs for local-level planning and analysis at a later date.
+In collaboration with the Data team of the National Emergency Operations Centre in Abuja, the [Gates Foundation](http://www.gatesfoundation.org/) and [Novel-T](http://www.novel-t.ch/), we created a dashboard that displays and allows analysis of data relating to the campaigns. It is being used by the National EOC currently, and will be rolled out to state EOCs for local-level planning and analysis at a later date.
 
 The dasboard enables the EOC and the Data Team to automatically generate a wide variety of reports based on the campaign data – a task which was previously done manually, and was extremely time-consuming.
 
