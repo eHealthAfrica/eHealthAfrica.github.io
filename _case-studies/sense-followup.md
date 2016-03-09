@@ -7,7 +7,7 @@ image: /img/list-sense-followup.jpg
 
 > Contact tracing is an integral component of the overall strategy for controlling an outbreak of Ebola virus disease (EVD). Contact tracing is defined as the identification and follow-up of persons who may have come into contact with an infected person […] All potential contacts of Ebola cases should be identified and closely observed for 21 days. <cite>Contact Tracing During an Outbreak of Ebola Virus Disease, WHO</cite>
 
-The health workers on the ground were probably the single most important resource in the fight against the West Africa Ebola outbreak.  Their job was to travel from settlement to settlement looking for and keeping track of everyone who had come into contact with Ebola cases. These people are known as *contacts*, and the regular visits that are carried out during the 21 day risk period are known as *followups*. A followup consists of a series of questions concerning any possible symptoms, such as high temperature, headache, etc.
+The health workers on the ground were probably the single most important resource in the fight against the West Africa Ebola outbreak. Their job was to travel from settlement to settlement looking for and keeping track of everyone who had come into contact with Ebola cases. These people are known as *contacts*, and the twice daily visits that are carried out during the 21 day risk period are known as *followups*. A followup consists of a series of questions concerning any possible symptoms, such as high temperature, headache, etc.
 
 Initially, these workers were using paper-based forms to keep track of the contacts and followups, but the sheer volume of data soon rendered this system untenable.
 
@@ -19,13 +19,16 @@ Because many affected settlements are in remote areas with little or no cellular
 
 Specifying the location of a particular home or settlement is a constant problem in West Africa; there is no standardised system of postal codes. To overcome this difficulty, Sense Followup leverages device location services to provide accurate longitude/latitude coordinates of contacts’ homes.
 
-This level of accuracy is also very useful for the **Sense Dashboard**, a web app that provides administrators and data analyzers with a summary of all contact tracing activities. The coordinates mean that it’s possible to see the positions of all infected and at-risk persons rendered on maps, and thereby get a sense of the spread of the disease.
+This level of accuracy is also useful for the **Sense Dashboard**, a web app that provides administrators and data analyzers with a summary of all contact tracing activities. The coordinates mean that it’s possible to see the positions of all infected and at-risk persons rendered on maps, and thereby get a sense of the spread of the disease.
 
 Since October 2014, Sense Followup has been adapted to work in several affected countries (Liberia, Sierra Leone, Mali) with the requisite internationalisation, advanced to version 5, and recorded many thousands of contacts and followups.
 
 ![Product Owner Nils Kaiser running a training session in Freetown, Sierra Leone](/img/sense-followup-training.jpg)
 
 Sense Followup forms the basis for several other similar projects that are currently in development, such as HAT, a mobile app for the Democratic Republic of Congo that will be used to combat sleeping sickness.
+
+> The network, the phone and the application are all good because they are fast. We can send our information and within one second it will
+go straight to the Ministry of Health and Social Welfare. All partners will monitor this information and can respond to any issues because eHA has made it possible to spread the information quickly. <cite>Mohammad - contact tracer</cite>
 
 ## Technical details
 

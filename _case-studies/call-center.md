@@ -8,11 +8,11 @@ image: /img/list-call-center.jpg
 
 The World Health Organisation described the Ebola outbreak that began in December 2013 in Guinea and subsequently spread to Sierra Leone and Liberia as “the most severe acute public health emergency seen in modern times”.
 
-Of these three countries, Sierra Leone was the one with the highest number of reported cases. When the outbreak began, the government repurposed an exisiting healthcare service as an emergency hotline. Callers could report sick patients, possible Ebola cases, and deaths; they could also get access to health information. But technically, the hotline was severely limited: it consisted of one phone per mobile provider, which meant that the number would be engaged if you tried to call while someone else on your provider was already connected. In addition, all the data collection was paper-based.
+Of these three countries, Sierra Leone was the one with the highest number of reported cases. When the outbreak began, eHA partnered with the Ministries of Health (MOH) in all three countries to help them rapidly scale up the existing universal, toll-free numbers as Ebola-focused call centers. Callers could report sick patients, possible Ebola cases, and deaths; they could also get access to health information. But technically, the hotline was severely limited: it consisted of one phone per mobile provider, which meant that the number would be engaged if you tried to call while someone else on your provider was already connected. In addition, all the data collection was paper-based.
 
 ![A poster for the 117 hotline to the Call Center in Sierra Leone](/img/call-center-poster.jpg)
 
-In September 2014, eHealth teamed up with Sierra Leone telcom Afcom to improve the hotline, and one month later a full, software-based call center went live with 52 operators, using the first iteration of our call center application.
+In September 2014, eHealth Africa teamed up with Sierra Leone telcom Afcom to improve the hotline, and one month later a full, software-based call center went live with 52 operators, using the first iteration of our call center application.
 
 ![Interior view of the Freetown Call Center](/img/call-center-interior.jpg)
 
@@ -41,7 +41,9 @@ The app also assisted the operators as they provided health information, or as t
 
 Supervisors used the app to generate reports, implement control mechanisms for quality assessments, and improve their staff planning; data analysts gathered information about areas most affected by disease outbreaks so that they could coordinate with government officials and take appropriate action.
 
-At the height of the outbreak, the 3 call centers were handling a combined total of around 15,000 calls per day. Since then, this number has decreased considerably, but the centers are still operational, and have evolved into more general helplines for people people reporting illness and death, or seeking health advice.
+At the height of the outbreak, the three call centers were handling a combined total of around 15,000 calls per day. Since then, this number has decreased considerably, but the centers are still operational, and have evolved into more general helplines for people people reporting illness and death, or seeking health advice.
+
+> Building 117 from a bunch of kids with mobiles to a room with so many staff in a country that never had that before is a phenomenal feat. It is extremely useful - we use 117 to engage with the response, watch where the alerts are, and analyze it to know how to strategize on the response. I couldn’t overstate the importance of eHA in 117 and the response. <cite>Ob Sisay, Director of the situational room, Sierra Leone EOC</cite>
 
 ![Lilian James, call center operator](/img/call-center-smiling.jpg)
 
@@ -53,4 +55,4 @@ To enable fulltext searches on the call records, and to allow for sorting of rec
 
 At the height of the outbreak, requirements were changing almost daily as various outbreak control strategies were tried out. To enable the rapid deployment of updates to each call center, we set up an automated system using [Travis](https://travis-ci.org/). When changes are committed to the main branch of the relevant GitHub repository, Travis runs all associated tests, and upon their successful completion triggers the creation of a new [Docker](https://www.docker.com/) image. These images are sent to our Docker repository, which then automatically logs in to each call center server, pulls the new image, boots it, and finally shuts down the previous image.
 
-On November 11th 2015, the World Health Organisation declared Sierra Leone Ebola-free. The hotline, call centers and infrastructure are however still in use, and as we wait to see whether they will be repurposed as a more generalised health service, we continue to iterate on the application; for example the latest feature allows operators to schedule and then be reminded of an appointment to call someone back at a later date.
+On November 11th 2015, the World Health Organisation declared Sierra Leone Ebola-free. The hotline, call centers and infrastructure are still in use, and are being repurposed as a more generalised health service. We continue to iterate on the application; for example the latest feature allows operators to schedule and then be reminded of an appointment to call someone back at a later date.
