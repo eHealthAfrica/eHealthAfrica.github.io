@@ -25,6 +25,10 @@
       opacity: 0.4;
     }
 
+    &:hover:before {
+      opacity: 0.2;
+    }
+
     h1, p {
       position: relative;
       z-index: 2;
