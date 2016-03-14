@@ -10,8 +10,11 @@ body .hero {
   h1, h2 {
     width: calc(100% - #{$step});
     line-height: 1.3333;
-    margin-top: 0;
-    margin-bottom: $step;
+    margin: 0;
+  }
+
+  h2 {
+    margin: $step 0;
   }
 
   h1 {
@@ -26,10 +29,14 @@ body .hero {
 
   @include media-query('large') {
 
-    padding-top: $step*12;
+    padding-top: $step*15;
 
-    h1, h2, p {
+    h2, p {
       margin-bottom: $step*2;
+    }
+
+    h2 {
+      margin-top: $step*2;
     }
 
     p:last-child, h2:last-child {
@@ -85,7 +92,7 @@ body .hero {
 
     @include media-query('medium') {
       margin: 0 - $step*2 calc(#{$page-width * .5} - 50vw) $step*2;
-      padding: $step*10 calc(50vw - #{$page-width * .5}) $step*2;
+      padding: $step*12 calc(50vw - #{$page-width * .5}) $step*2;
     }
   }
 

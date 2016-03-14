@@ -15,7 +15,7 @@ $longform-hero-height: 500px;
       margin: $step 0;
       padding: 0;
 
-      padding: $step*.5 0;
+      // padding: $step*.5 0;
       margin: 0 0 $step;
       border-left: $step*.1666 solid $case-studies-color;
       margin-left: 0 - $step*.5;
@@ -23,11 +23,11 @@ $longform-hero-height: 500px;
       padding-left: $step*.333;
       padding-right: $step*.75;
       font-style: italic;
-      background-color: #dddde3;
+      // background-color: #dddde3;
 
       @include media-query(medium) {
         padding-left: $step*.75;
-        margin-left: 0;
+        margin-left: 0 - $step;
         margin-right: 0;
         border-left: $step*.25 solid $case-studies-color;
         color: #555;
@@ -37,11 +37,18 @@ $longform-hero-height: 500px;
       & cite {
         display: block;
         margin: 0;
+        margin-left: -#{$step*.5};
+        padding-left: $step*.5;
+        background-color: white;
         font-style: normal;
-        font-weight: bold;
+
+        @include media-query(medium) {
+          margin-left: -#{$step};
+          padding-left: $step;
+        }
 
         &, & a[href] {
-          color: white;
+          color: #999;
         }
 
         p {
