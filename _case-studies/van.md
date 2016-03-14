@@ -21,7 +21,7 @@ This master spreadsheet auto-generates reports and schematics via a set of compl
 This system has done a lot to improve visibility throughout the vaccine distribution process, and to ensure that vaccine stocks are maintained at requisite levels in the various national, zonal, state and LGA cold stores. But there are major limitations:
 
 - there is no visibility below the LGA level
-- the procedure is very work-intensive, particularly for the national data manager, who is forced to spend most of his time downloading, copying and pasting
+- the procedure is work-intensive, particularly for the national data manager, who is forced to spend most of his time downloading, copying and pasting
 - the system is unsustainable: since each Excel file contains the data for all previous weeks, they are already becoming awkwardly large
 
 ## Enter the VAN VSPM Dashboard
@@ -38,7 +38,7 @@ The VAN VSPM Dashboard is a part of this project. It is a partnership between th
 - reduce (or even, ultimately, remove) the reliance on Excel, which imposes limitations on data visibility
 - provide a data warehousing solution to store all historical data, thereby allowing more complex time-based data analysis
 
-The VAN VSPM Dashboard is a custom-built web application that reads Excel spreadsheets in the currently-used format and applies transformations to extract the necessary data. The spreadsheets can be submitted via email or direct upload. The Dashboard then analyses this data to present a variety of visualisations.
+The VAN VSPM Dashboard is a custom-built web application that reads Excel spreadsheets in the currently used format and applies transformations to extract the necessary data. The spreadsheets can be submitted via email or direct upload. The Dashboard then analyses this data to present a variety of visualisations.
 
 ![Matrix visualisation with the VAN VSPM Dashboard](/img/van-matrix-view.jpg)
 
@@ -68,7 +68,7 @@ More complicated than these transformers is the extraction of data from emailed 
 
 ![Managing emailed files with the VAN VSPM Dashboard](/img/van-email-reconciliation.jpg)
 
-The sheer size of the Excel files has caused many problems: working with 7MB files in unreliable network conditions requires  careful configuration, much of which can only be determined heuristically. To make the situation even worse, some of the LGAs have outdated versions of Excel and submit their data as .xls files, which are often 4x larger and, due to their undocumented format, very hard to parse.
+The sheer size of the Excel files has caused many problems: working with 7MB files in unreliable network conditions requires  careful configuration, much of which can only be determined heuristically. To make the situation even worse, some of the LGAs have outdated versions of Excel and submit their data as .xls files, which are often 4x larger and, due to their undocumented format, hard to parse.
 
 In order to re-create the stock visualisations that are currently used for decision-making, we needed to reverse engineer complex calculations and formulae from the national Excel template — unfortunately these calculations were not formally documented. When we eventually managed this, refining and confirming our assumptions through several discussions with the relevant stakeholders, it turned out that there were discrepancies between the visualisations created by the dashboard and those created by the Excel template. Further investigation revealed errors in the Excel calculations, which had until now gone unnoticed.
 
