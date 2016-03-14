@@ -7,6 +7,8 @@ $longform-hero-height: 500px;
       margin-left: 0 - $step*.5;
       margin-right: 0 - $step*.5;
       max-width: calc(100% + #{$step});
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
     }
 
     blockquote {
@@ -17,7 +19,7 @@ $longform-hero-height: 500px;
       margin: 0 0 $step;
       border-left: $step*.1666 solid $case-studies-color;
       margin-left: 0 - $step*.5;
-      margin-right: 0 - $step*.75;
+      margin-right: 0 - $step*.5;
       padding-left: $step*.333;
       padding-right: $step*.75;
       font-style: italic;
