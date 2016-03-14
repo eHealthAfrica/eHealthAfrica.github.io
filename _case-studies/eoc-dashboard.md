@@ -3,7 +3,7 @@ class: long-form
 layout: default
 title: EOC Dashboard
 description: Working towards the global eradication of the polio virus
-image: /img/list-sense-followup.jpg
+image: /img/list-eoc-dashboard.jpg
 draft: true
 ---
 
