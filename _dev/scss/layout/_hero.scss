@@ -69,6 +69,10 @@ body .hero {
     @include responsiveBGImage('hero-eoc-dashboard');
   }
 
+  .trace-and-go & {
+    @include responsiveBGImage('hero-tag');
+  }
+
   .jobs & {
     @include responsiveBGImage('hero-jobs');
   }

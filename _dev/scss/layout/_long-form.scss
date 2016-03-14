@@ -54,6 +54,14 @@ $longform-hero-height: 500px;
       }
     }
 
+    code {
+      display: block;
+      padding: $step*.5;
+      background-color: #f3f3f3;
+      border: 2px solid #ddd;
+      font-size: 0.8em;
+    }
+
     @include media-query('medium') {
       p, h3, blockquote, ul, li {
         @include large-type;
