@@ -23,6 +23,7 @@
       right: 0;
       background-color: #000;
       opacity: 0.4;
+      transition: opacity 0.2s;
     }
 
     &:hover:before {
