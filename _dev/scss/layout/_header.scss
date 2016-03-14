@@ -20,9 +20,9 @@
   // then transition down on burger click
   body {
     padding-top: $step*6;
-    transform: translateY(calc(-#{$step*6} - 3px));
+    transform: translateY(calc(-#{$step*6} - 6px));
     transition: transform .3s ease-in-out;
-    margin-bottom: calc(-#{$step*6} - 3px);
+    margin-bottom: calc(-#{$step*6} - 6px);
 
     &.nav-visible {
       transform: translateY(0);
@@ -83,19 +83,21 @@
     a {
       display: block;
       padding: $step*.5;
-
-      background-color: desaturate($brand-color, 10%);
+      border-bottom: 1px solid lighten($brand-color, 20%);
+      background-color: desaturate($brand-color, 20%);
       &:active {
         background-color: $brand-color;
       }
       .jobs & {
-        background-color: desaturate($jobs-color, 10%);
+        background-color: desaturate($jobs-color, 20%);
+        border-bottom: 1px solid lighten($jobs-color, 20%);
         &:active {
           background-color: $jobs-color;
         }
       }
       .case-studies & {
-        background-color: desaturate($case-studies-color, 10%);
+        background-color: desaturate($case-studies-color, 20%);
+        border-bottom: 1px solid lighten($case-studies-color, 20%);
         &:active {
           background-color: $case-studies-color;
         }
