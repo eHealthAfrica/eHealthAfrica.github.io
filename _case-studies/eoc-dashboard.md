@@ -4,7 +4,6 @@ layout: default
 title: EOC Dashboard
 description: Working towards the global eradication of the polio virus
 image: /img/list-eoc-dashboard.jpg
-draft: true
 ---
 
 > Nigeria has made remarkable progress against polio, but continued vigilance is needed to protect these gains and ensure that polio does not return. [...] Immunization and surveillance activities must continue to rapidly detect a potential re-introduction or re-emergence of the virus.

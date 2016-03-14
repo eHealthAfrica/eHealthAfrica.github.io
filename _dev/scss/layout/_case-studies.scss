@@ -1,7 +1,9 @@
 .case-studies-list {
   @extend .card-list;
 
-  margin: $step*4 0;
+  @include media-query(medium) {
+    margin: $step*4 0;
+  }
 
   a[href] {
     display: flex;
