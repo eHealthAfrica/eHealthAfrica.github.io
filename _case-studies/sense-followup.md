@@ -28,7 +28,7 @@ Since October 2014, Sense Followup has been adapted to work in several affected 
 Sense Followup forms the basis for several other similar projects that are currently in development, such as HAT, a mobile app for the Democratic Republic of Congo that will be used to combat sleeping sickness.
 
 > The network, the phone and the application are all good because they are fast. We can send our information and within one second it will
-go straight to the Ministry of Health and Social Welfare. All partners will monitor this information and can respond to any issues because eHA has made it possible to spread the information quickly. <cite>Mohammad - contact tracer</cite>
+go straight to the Ministry of Health and Social Welfare. All partners will monitor this information and can respond to any issues because eHA has made it possible to spread the information quickly. <cite>Mohammad, contact tracer</cite>
 
 ## Technical details
 
