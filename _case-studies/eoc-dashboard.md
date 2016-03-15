@@ -37,7 +37,7 @@ Because of the high transmissibility of the virus, the key to polio eradiction i
 
 ## Emergency Operation Centers
 
-In 2012, we received funds from The Gates Foundation to build and manage **Emergency Operations Centers** (EOCs) in the northern states with the highest infection rates, and a National Polio EOC in Abuja to coordinate activities between state governments and national agencies. The aim of these centers is to bring together the disparate groups who are involved (national, state, and local governments in Nigeria, WHO, UNICEF, CDC, Rotary International, and other local partners) and promote collaboration between them to achieve the eradication milestone..
+In 2012, we received funds from The Gates Foundation to build and manage **Emergency Operations Centers** (EOCs) in the northern states with the highest infection rates, and a National Polio EOC in Abuja to coordinate activities between state governments and national agencies. The aim of these centers is to bring together the disparate groups who are involved (national, state, and local governments in Nigeria, WHO, UNICEF, CDC, Rotary International, and other local partners) and promote collaboration between them to achieve the eradication milestone.
 
 ![The Emergency Operations Center in Kano](/img/eoc-dashboard-eoc.jpg)
 
