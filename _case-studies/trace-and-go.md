@@ -16,11 +16,13 @@ This inadvertent lack of transparency created **mistrust of the ETUs**. Patients
 
 Because it contains details of all patients who are -- or have been -- held in ETUs, TAG also functions as an **administrative dashboard** that can be used by health workers to track and update patient information. This dashboard proved useful for coordinators and supervisors during the outbreak, since there had previously been no centralised repository for this information.
 
-![Creating a new patient in TAG](/img/tag-screenshot-in-use.jpg)
-
 ## Data Flow
 
-When a patient arrives at an ETU, a health care worker adds their information via the TAG Dashboard. They also add the mobile number of a relative. TAG then assigns a unique id to the patient, and triggers two text messages:
+When a patient arrives at an ETU, a health care worker adds their information via the TAG Dashboard. They also add the mobile number of a relative. 
+
+![Creating a new patient in TAG](/img/tag-screenshot-in-use.jpg)
+
+TAG then assigns a unique id to the patient, and triggers two text messages:
 
 - The patient’s id number and the message “You will be notified of all changes in the status and location of your loved one” are sent to the relative
 - The patient’s id number is sent to the case investigator
@@ -41,7 +43,7 @@ TAG can work with a number of different SMS platforms, including [RapidPro](http
 
 ## The Future of TAG
 
-TAG - which has been [released as **open source**](https://github.com/eHealthAfrica/trace-and-go-public) - went a long way towards rebuilding trust in the Liberian health system, and also provided solace and reassurance for a large number of families whose loved ones contracted -- or were suspected to have contracted -- Ebola.
+TAG - which has been [released](https://github.com/eHealthAfrica/trace-and-go-public) under an  **open source** licence - went a long way towards rebuilding trust in the Liberian health system, and also provided solace and reassurance for a large number of families whose loved ones contracted -- or were suspected to have contracted -- Ebola.
 
 Although the outbreak seems to be over (as of March 2016), the likelihood of new cases in Liberia is, officially, still high. TAG is therefore still running, just in case the service becomes necessary again.
 
