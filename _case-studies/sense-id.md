@@ -3,7 +3,6 @@ class: long-form
 title: Sense ID
 description: Registering and managing participants in ebola vaccine trials
 image: /img/list-sense-id.jpg
-draft: true
 ---
 
 In February 2015 the [CDC](http://www.cdc.gov/index.htm) asked us to create an application and dashboard that could be used to register and follow up with participants in STRIVE (**S**ierra Leone **T**rial to **I**ntroduce a **V**accine against **E**bola).
