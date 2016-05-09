@@ -24,8 +24,6 @@ In the three countries where it has been deployed (Sierra Leone and then later G
 
 Our team in Berlin developed the desktop web application (see below for technical details), while eHA worked onsite with local telcos and HR companies to put together the physical centers and staff. Installing servers and getting the required network connectivity was no small feat in itself (although the latter proved easier in Guinea, where the center happened to be across the street from a bank, and could piggy-back its fibre connection).
 
-> “About a week after I began working at eHAGI, I was deployed to Sierra Leone. My first task when I got there? Screwing legs onto all the tables of the new call center.” <cite>Nils Kaiser, Product Owner</cite>
-
 The call centers were set up to respond to four types of call:
 
 * relatives (or the patient themselves) reporting possible infection
