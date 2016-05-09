@@ -1,16 +1,16 @@
 ---
 title: Product Designer
-description: Help strengthen global public health systems and fight diseases like Ebola
 location: Berlin
 ---
+**Location**: Berlin, Germany  
+**Job Duration**: Freelance  
+**Language Skills**: fluent English is a must, German, Spanish and French are nice-to-haves  
+   
 We’re an American-Nigerian NGO specialised on the development and deployment of tech for public health in West Africa. We tackle diseases and health issues such as the Ebola virus, polio, maternal health, nutrition, and vaccination delivery.
 
 Our tech team of 35 is located in Kano and Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea. We’re looking for someone to join us, starting as soon as possible.
 
 We’re looking for a person with strong UX, UI and usability skills who can help investigate and validate problems; and ultimately design, test and ship solutions. Our team works very collaboratively, using Agile methods to deliver projects iteratively.
-
-**Language Skills:** fluent English is a must, German, Spanish and French are nice-to-haves
-**Location:** Berlin (required)
 
 ### Your skills & experience
 * Five years of design experience in a digital context
@@ -30,12 +30,8 @@ We’re looking for a person with strong UX, UI and usability skills who can hel
 * Work with devs to help implement your designs
 
 
-### Sound good to you? Contact us!
-If you’re interested, please contact us with:
+###Please apply via this link only:
+[http://ehealthafrica.applytojob.com/apply/juCwmP/Product-Designer](http://ehealthafrica.applytojob.com/apply/juCwmP/Product-Designer)
 
-* a few short lines about yourself (please keep it brief!)
-* your CV
-* at least one case study
-
-Send your application to [yioula.panagopoulou@ehealthnigeria.org](mailto:yioula.panagopoulou@ehealthnigeria.org). We’re looking forward to hearing from you!
+For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org).
 
