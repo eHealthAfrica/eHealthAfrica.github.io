@@ -11,8 +11,7 @@ job-duration: Freelance
 **Location**: Berlin, Germany  
 **Job Duration**: Freelance  
 
-   
-###Summary
+### Summary
 The Senior Developer is responsible for developing and supporting projects, functions and completing specific client work, projects and miscellaneous tasks. This highly responsible position involves using established work procedures to analyse, design, develop, implement, maintain, re-engineer and troubleshoot applications.
 
 ###Keywords
