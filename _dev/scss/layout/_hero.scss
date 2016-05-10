@@ -72,6 +72,10 @@ body .hero {
     @include responsiveBGImage('hero-sense-id');
   }
 
+  .telerivet & {
+    @include responsiveBGImage('hero-telerivet');
+  }
+
   .eoc-dashboard & {
     @include responsiveBGImage('hero-eoc-dashboard');
   }
