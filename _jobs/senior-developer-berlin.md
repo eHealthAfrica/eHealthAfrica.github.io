@@ -10,14 +10,14 @@ job-duration: Freelance
 
 **Location**: Berlin, Germany  
 **Job Duration**: Freelance  
-
-### Summary
+   
+## Summary
 The Senior Developer is responsible for developing and supporting projects, functions and completing specific client work, projects and miscellaneous tasks. This highly responsible position involves using established work procedures to analyse, design, develop, implement, maintain, re-engineer and troubleshoot applications.
 
-###Keywords
+## Keywords
 JavaScript, Git, ReactJS, AngularJS, AJAX, CSS3, Python
 
-###Duties and Responsibilities
+## Duties and Responsibilities
 
 * Directs technical aspects of operations related to client accounts or high severity issues 
 * Participates in the evolution of company level software best practices, standards, and policies 
@@ -26,7 +26,7 @@ JavaScript, Git, ReactJS, AngularJS, AJAX, CSS3, Python
 * Collaborates with product owners, technical architects and other software developers to plan, design, develop, test, and maintain web- and mobile-based applications 
 * Provides thought-leadership to emerging technologies and integrate them into business operations
 
-###Qualifications and Experience
+## Qualifications and Experience
 
 * Bachelor’s degree from college or university in Computer Science, Computer Engineering, Information Systems Technology or related field. A postgraduate degree is desirable.
 * Minimum of 5 years of experience in Software Development or an equivalent of education and experience
@@ -44,10 +44,10 @@ JavaScript, Git, ReactJS, AngularJS, AJAX, CSS3, Python
 * Python expertise, with knowledge of at least one Python web framework, is considered a plus
 * Fluent in English
 
-###Why work for us?
+## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
-###Please apply via this link only:
+### Please apply via this link only:
 [http://ehealthafrica.applytojob.com/apply/A8pshN/Senior-Developer](http://ehealthafrica.applytojob.com/apply/A8pshN/Senior-Developer)
 
 
