@@ -28,7 +28,7 @@ We **open source** our work, wherever possible. Take a look at our [Github repo]
 
 # <a name="jobs">Work With Us</a>
 
-Does this sound like the kind of work you want to do? If so, **come and join us**! Our international software development team of 27 is located in **Kano**, **Berlin**, **Monrovia** and **Freetown**. We’re currently looking to fill the following positions:
+Does this sound like the kind of work you want to do? If so, **come and join us**! Our international software development team of 27 is located in **Kano**, **Berlin**, **Monrovia**, **Freetown** and **Conakry**. We’re currently looking to fill the following positions:
 
 {% include job-listing.html %}
 
