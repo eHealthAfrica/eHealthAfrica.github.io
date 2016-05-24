@@ -1,4 +1,3 @@
-
 ---
 title: DevOps Engineer
 location: Berlin
