@@ -40,9 +40,9 @@ Life at eHealth Africa means not only working towards saving thousands of lives,
 
 ### Please apply following these links for
 [for Kano](http://ehealthafrica.applytojob.com/apply/yCP4zr/DevOps-Engineer)  
-[for Conakry](http://ehealthafrica.applytojob.com/apply/ItS7dd/DevOps-Engineer) 
-[for Monrovia](http://ehealthafrica.applytojob.com/apply/6FFgBT/DevOps-Engineer) 
-[for Freetown](http://ehealthafrica.applytojob.com/apply/8e5LzF/DevOps-Engineer) 
+[for Conakry](http://ehealthafrica.applytojob.com/apply/ItS7dd/DevOps-Engineer)   
+[for Monrovia](http://ehealthafrica.applytojob.com/apply/6FFgBT/DevOps-Engineer)  
+[for Freetown](http://ehealthafrica.applytojob.com/apply/8e5LzF/DevOps-Engineer)  
 
 For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org)
 
