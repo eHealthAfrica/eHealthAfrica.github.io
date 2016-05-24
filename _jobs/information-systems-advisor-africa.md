@@ -42,10 +42,10 @@ Product Management, Sprint Planning, Release Planning, Agile, Scrum
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following these links for
-[for Kano](http://ehealthafrica.applytojob.com/apply/Dfzh5x/Information-Systems-Advisor)  
-[for Conakry](http://ehealthafrica.applytojob.com/apply/6jwfsh/Information-Systems-Advisor)   
-[for Monrovia](http://ehealthafrica.applytojob.com/apply/3cdyM1/Information-Systems-Advisor)  
-[for Freetown](http://ehealthafrica.applytojob.com/apply/NKtNqy/Information-Systems-Advisor)  
+[Kano](http://ehealthafrica.applytojob.com/apply/Dfzh5x/Information-Systems-Advisor)  
+[Conakry](http://ehealthafrica.applytojob.com/apply/6jwfsh/Information-Systems-Advisor)   
+[Monrovia](http://ehealthafrica.applytojob.com/apply/3cdyM1/Information-Systems-Advisor)  
+[Freetown](http://ehealthafrica.applytojob.com/apply/NKtNqy/Information-Systems-Advisor)  
 
 For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org)
 
