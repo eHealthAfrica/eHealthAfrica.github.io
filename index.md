@@ -8,7 +8,7 @@ description: In the last year we’ve built systems for **Nigeria**, **Sierra Le
 
 <section class="intro">
 
-eHealth Africa Global Health Informatics is the tech subdivision of eHealth Africa (eHA). eHA is a **US-African NGO** focused on developing and implementing innovative approaches for **data-driven global health informatics** and **technology solutions** that connect and deliver **public health services and commodities** to underserved communities across the African continent. 
+eHealth Africa Global Health Informatics is the tech subdivision of eHealth Africa (eHA). eHA is an **US-African NGO** focused on developing and implementing innovative approaches for **data-driven global health informatics** and **technology solutions** that connect and deliver **public health services and commodities** to underserved communities across the African continent. 
 
 We develop **GIS solutions**, **mobile apps** for field workers, and **web-based dashboards** for data management and analysis.
 
