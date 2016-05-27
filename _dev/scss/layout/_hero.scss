@@ -72,8 +72,8 @@ body .hero {
     @include responsiveBGImage('hero-sense-id');
   }
 
-  .telerivet & {
-    @include responsiveBGImage('hero-telerivet');
+  .kano-connect & {
+    @include responsiveBGImage('hero-kano-connect');
   }
 
   .eoc-dashboard & {
