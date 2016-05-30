@@ -3,10 +3,9 @@ class: long-form
 title: Trace and Go
 description: Building trust by maintaining communication with the families of Ebola patients 
 image: /img/list-tag.jpg
-draft: true
 ---
 
-During the height of the Ebola epidemic in Liberia, patients were isolated and cared for in **Ebola Treatment Units** (ETUs). Patients and suspected patients would arrive at an ETU either by ambulance or by their own means. Case investigators and doctors recorded information about them and their condition when they arrived, and updated it according to their ongoing status. Unfortunately, though, **there was no way of sharing this information with the patients’ families**, or even of informing them that their loved ones were being treated at the ETU. In the worst case, deceased victims were cremated before their families were even notified of their death.
+During the height of the Ebola epidemic in Liberia, patients were isolated and cared for in **Ebola Treatment Units** (ETUs). Patients and suspected patients would arrive at an ETU either by ambulance or by their own means. Case investigators and doctors recorded information about them and their condition when they arrived, and updated it according to their ongoing status. Unfortunately, though, **there was no way of sharing this information with the patients’ families**, or even of informing them that their loved ones were being treated at the ETU. Often the families of patients brought in by ambulance had no idea of the location of the ETU where their loved ones were being treated.
 
 This inadvertent lack of transparency created **mistrust of the ETUs**. Patients would often refuse to go to an ETU, or even to enter ambulances that they suspected would take them to one, for fear of becoming lost in the system. This severely impeded the fight against Ebola, an essential part of which was the rapid quarantining of victims.
 
@@ -18,7 +17,7 @@ Because it contains details of all patients who are -- or have been -- held in E
 
 ## Data Flow
 
-When a patient arrives at an ETU, a health care worker adds their information via the TAG Dashboard. They also add the mobile number of a relative. 
+When a patient arrives at an ETU, a health care worker adds their information via the TAG Dashboard. They also add the mobile number of a relative. Alternatively, this information can be added to the system in the field by way of an [ODK](https://opendatakit.org/) mobile app.
 
 ![Creating a new patient in TAG](/img/tag-screenshot-in-use.jpg)
 
