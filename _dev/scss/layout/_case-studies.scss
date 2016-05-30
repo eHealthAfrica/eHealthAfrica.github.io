@@ -2,7 +2,16 @@
   @extend .card-list;
 
   @include media-query(medium) {
-    margin: $step*4 0;
+    margin: $step*2 0;
+  }
+
+  // override some card list stuff to make them full screen width
+  @include media-query(large) {
+    margin: $step*2 calc(#{$step*2} - 50vw + 50%);
+
+    li {
+      flex: 0 0 400px;
+    }
   }
 
   a[href] {
