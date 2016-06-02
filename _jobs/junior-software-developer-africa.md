@@ -37,7 +37,7 @@ JavaScript, Git, HTML, AJAX, CSS3
 * Understanding of the differences between multiple delivery platforms, such as mobile vs desktop, and optimizing output to match the specific platform
 * Unit test and debugging skills
 * Understanding of code versioning tools (Git) is a plus
-* Fluent in English (French for Conakry), English is desired
+* Fluent in English (French for Conakry), French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
