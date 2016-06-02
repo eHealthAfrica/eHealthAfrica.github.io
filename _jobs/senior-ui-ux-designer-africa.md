@@ -36,7 +36,7 @@ UI/UX, Photoshop, Fireworks, Illustrator, OmniGraffle, HTML, CSS, JavaScript
 * Ability to present your designs and sell your solutions to various stakeholders
 * Ability to solve problems creatively and effectively
 * Up-to-date with the latest UI trends, techniques, and technologies
-* Fluent in English (French for Conakry), English is desired
+* Fluent in English (French for Conakry), French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
