@@ -2,8 +2,7 @@
 class: long-form
 title: Kano Connect
 description: Strengthening the Kano State healthcare system by improving communication 
-image: /img/list-tag.jpg
-draft: true
+image: /img/list-kano-connect.jpg
 ---
 
 > eHealth Africa’s mission is to build stronger health systems through the design and implementation of data-driven solutions that respond to local needs and provide under-served communities with tools to lead healthier lives.
