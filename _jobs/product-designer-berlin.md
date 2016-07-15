@@ -31,6 +31,7 @@ We’re looking for a person with strong UX, UI and usability skills who can hel
 * Work with product owners design an intuitive interface for the end users
 * Work with devs to help implement your designs
 
+**Sounds good to you? Contact us!** If you’re interested, please contact us with a few short lines about yourself (please keep them really short), your CV and at least **one case study**.
 
 ### Please apply via [this link](http://ehealthafrica.applytojob.com/apply/juCwmP/Product-Designer) only.
 
