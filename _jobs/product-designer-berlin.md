@@ -6,9 +6,11 @@ location: Berlin
 **Job Duration**: Freelance  
 **Language Skills**: fluent English is a must, German, Spanish and French are nice-to-haves  
    
+**Please note: The position requires willingness and preparedness to be deployed to one of our offices in West Africa (Kano, Conakry, Freetown or Monrovia) for several months from a very early stage of the contract.**  
+
 We’re an American-Nigerian NGO specialised on the development and deployment of tech for public health in West Africa. We tackle diseases and health issues such as the Ebola virus, polio, maternal health, nutrition, and vaccination delivery.
 
-Our tech team of 35 is located in Kano and Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea. We’re looking for someone to join us, starting as soon as possible.
+Our tech team of 35 is located in Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea.
 
 We’re looking for a person with strong UX, UI and usability skills who can help investigate and validate problems; and ultimately design, test and ship solutions. Our team works very collaboratively, using Agile methods to deliver projects iteratively.
 
