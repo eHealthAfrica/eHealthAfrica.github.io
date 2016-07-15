@@ -1,14 +1,14 @@
 ---
-title: DevOps Engineer
+title: System Administrator
 location: Kano/Conakry/Monrovia/Freetown
 ---
-**Job Title:** DevOps Engineer  
+**Job Title:** System Administrator  
 **Department:** Global Health Informatics  
 **Location:** Kano (Nigeria), Conakry (Guinea), Monrovia (Liberia), Freetown (Sierra Leone)  
 **Job Duration:** Fulltime
 
 ### Summary
-The DevOps Engineer is responsible for creating continuous integration and deployment pipelines for a variety of different engagements and technologies. S/he translates software requirements into workable programming code as well as develops and maintains programs for business use.
+The System Administrator is responsible for creating continuous integration and deployment pipelines for a variety of different engagements and technologies. S/he translates software requirements into workable programming code as well as develops and maintains programs for business use.
 
 ### Keywords
 Docker, Linux, Amazon Web Services, Python, JavaScript, CouchDB and PostgreSQL
