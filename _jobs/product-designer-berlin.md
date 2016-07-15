@@ -32,7 +32,7 @@ We’re looking for a person with strong UX, UI and usability skills who can hel
 * Work with devs to help implement your designs
 
 
-### Please apply via [this link](http://ehealthafrica.applytojob.com/apply/juCwmP/Product-Designer) only:
+### Please apply via [this link](http://ehealthafrica.applytojob.com/apply/juCwmP/Product-Designer) only.
 
 
 For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org).
