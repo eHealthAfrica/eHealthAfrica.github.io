@@ -2,7 +2,8 @@
 title: Technical Project Manager
 description: Using software to fight Ebola and strengthen health systems in West Africa
 department: Software Development 
-program:
+program: 
+draft: true
 grade:
 reports-to:
 location: Berlin
