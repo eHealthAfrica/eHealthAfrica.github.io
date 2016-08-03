@@ -4,7 +4,7 @@ location: Berlin
 ---
 **Location**: Berlin, Germany  
 **Job Duration**: Freelance  
-**Language Skills**: fluent English is a must, German, Spanish and French are nice-to-haves  
+**Language Skills**: Fluent English is a must, German, Spanish and French are nice-to-haves  
    
 **Please note: The position requires willingness and preparedness to be deployed to one of our offices in West Africa (Kano, Conakry, Freetown or Monrovia) for several months from a very early stage of the contract.**  
 
@@ -25,7 +25,7 @@ We’re looking for a person with strong UX, UI and usability skills who can hel
 ### Bonus points!
 * Experience designing for users with low-level tech literacy
 * Experience with data visualisation
-* Any experience with javascript
+* Experience with JavaScript
 
 ### Your tasks
 * Work with product owners design an intuitive interface for the end users
