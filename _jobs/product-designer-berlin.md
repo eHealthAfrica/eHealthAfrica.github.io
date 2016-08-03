@@ -8,7 +8,7 @@ location: Berlin
    
 **Please note: The position requires willingness and preparedness to be deployed to one of our offices in West Africa (Kano, Conakry, Freetown or Monrovia) for several months from a very early stage of the contract.**  
 
-We’re an American-Nigerian NGO specialised on the development and deployment of tech for public health in West Africa. We tackle diseases and health issues such as the Ebola virus, polio, maternal health, nutrition, and vaccination delivery.
+We’re an American-Nigerian NGO specialised in the development and deployment of tech for public health in West Africa. We tackle diseases and health issues such as the Ebola virus, polio, maternal health, nutrition, and vaccination delivery.
 
 Our tech team of 35 is located in Berlin, with various team members currently on site in Nigeria, Sierra Leone, Liberia and Guinea.
 
