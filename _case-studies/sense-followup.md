@@ -13,7 +13,7 @@ Initially, these workers were using paper-based forms to keep track of the conta
 
 ![Paper-based contact tracing](/img/sense-followup-paper.jpg)
 
-We began development of a mobile app to handle contact tracing in October 2014, and version 1.0 was released after 2 days’ frenetic work. **Sense Followup** is a hybrid mobile app built for Android phones/tablets. It provides an simple interface that guides health workers through the processes of registering a contact and performing a followup.
+We began development of a mobile app to handle contact tracing in October 2014, and version 1.0 was released after 2 days’ frenetic work. **Sense Followup** is a hybrid mobile app built for Android phones/tablets. It provides a simple interface that guides health workers through the processes of registering a contact and performing a followup.
 
 Because many affected settlements are in remote areas with little or no cellular connectivity, Sense Followup stores the contact and followup data locally, and waits for a data connection strong enough to make it possible to synchronise with the master database. During this process of synchronisation, the application also receives any new data from other health workers, making it easier to coordinate contact tracing and followups within large teams.
 
