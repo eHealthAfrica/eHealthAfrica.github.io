@@ -1,10 +1,10 @@
 ---
 title: Information Systems Advisor
-location: Kano/Conakry/Monrovia/Freetown
+location: Kano/Monrovia/Freetown
 ---
 **Job Title:** Information Systems Advisor  
 **Department:** Global Health Informatics  
-**Location:** Kano (Nigeria), Conakry (Guinea), Monrovia (Liberia), Freetown (Sierra Leone)  
+**Location:** Kano (Nigeria), Monrovia (Liberia), Freetown (Sierra Leone)  
 **Job Duration:** Fulltime
 
 ### Summary
@@ -36,14 +36,12 @@ Product Management, Sprint Planning, Release Planning, Agile, Scrum
 * Organizational skills and great attention to detail. Must be able to work as a member of a team and possess good problem solving skills.
 * Must have the ability to manage conflicts and resolve problems effectively
 * Action oriented and resilient in a fast-paced environment
-* Fluent in English (French for Conakry), French is desired
+* Fluent in English, French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following these links for
-[Kano](http://ehealthafrica.applytojob.com/apply/Dfzh5x/Information-Systems-Advisor)  
-[Conakry](http://ehealthafrica.applytojob.com/apply/6jwfsh/Information-Systems-Advisor)   
 [Monrovia](http://ehealthafrica.applytojob.com/apply/3cdyM1/Information-Systems-Advisor)  
 [Freetown](http://ehealthafrica.applytojob.com/apply/NKtNqy/Information-Systems-Advisor)  
 
