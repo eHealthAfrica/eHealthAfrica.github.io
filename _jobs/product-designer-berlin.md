@@ -4,7 +4,9 @@ location: Berlin
 ---
 **Location**: Berlin, Germany  
 **Job Duration**: Freelance  
-**Language Skills**: Fluent English is a must, German, Spanish and French are nice-to-haves  
+**Language Skills**: Fluent English is a must, German, Spanish and French are nice-to-haves 
+draft: true
+
    
 **Please note: The position requires willingness and preparedness to be deployed to one of our offices in West Africa (Kano, Conakry, Freetown or Monrovia) for several months from a very early stage of the contract.**  
 
