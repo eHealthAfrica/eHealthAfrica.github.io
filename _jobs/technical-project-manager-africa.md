@@ -1,10 +1,10 @@
 ---
 title: Technical Project Manager
-location: Kano/Conakry/Monrovia/Freetown
+location: Kano/Monrovia/Freetown
 ---
 **Job Title:** Technical Project Manager  
 **Department:** Global Health Informatics  
-**Location:** Kano (Nigeria), Conakry (Guinea), Monrovia (Liberia), Freetown (Sierra Leone)  
+**Location:** Kano (Nigeria), Monrovia (Liberia), Freetown (Sierra Leone)  
 **Job Duration:** Fulltime
 
 ### Summary
@@ -32,14 +32,12 @@ Project Management, Sprint Planning, Release Planning, Agile, Scrum
 * Proven Experience in software development life cycle (SDLC), Agile, Scrum, Waterfall, PMI PMBOK 
 * Knowledge of network architecture/hardware desired but not required
 * Ability to work on multiple projects simultaneously and deliver within tight timelines while being flexible in adapting to new roles
-* Fluent in English (French for Conakry), French is desired
+* Fluent in English, French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following these links for
-[Kano](http://ehealthafrica.applytojob.com/apply/qXphI1/Technical-Project-Manager)  
-[Conakry](http://ehealthafrica.applytojob.com/apply/0GHRf1/Technical-Project-Manager)   
 [Monrovia](http://ehealthafrica.applytojob.com/apply/cyjLHh/Technical-Project-Manager)  
 [Freetown](http://ehealthafrica.applytojob.com/apply/5uEeiM/Technical-Project-Manager)  
 
