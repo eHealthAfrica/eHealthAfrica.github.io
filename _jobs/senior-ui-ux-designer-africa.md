@@ -1,10 +1,10 @@
 ---
 title: Senior UI/UX Designer
-location: Kano/Conakry/Monrovia/Freetown
+location: Kano/Monrovia/Freetown
 ---
 **Job Title:** Senior UI/UX Designer  
 **Department:** Global Health Informatics  
-**Location:** Kano (Nigeria), Conakry (Guinea), Monrovia (Liberia), Freetown (Sierra Leone)  
+**Location:** Kano (Nigeria), Monrovia (Liberia), Freetown (Sierra Leone)  
 **Job Duration:** Fulltime
 
 ### Summary
@@ -36,14 +36,12 @@ UI/UX, Photoshop, Fireworks, Illustrator, OmniGraffle, HTML, CSS, JavaScript
 * Ability to present your designs and sell your solutions to various stakeholders
 * Ability to solve problems creatively and effectively
 * Up-to-date with the latest UI trends, techniques, and technologies
-* Fluent in English (French for Conakry), French is desired
+* Fluent in English, French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following these links for
-[Kano](http://ehealthafrica.applytojob.com/apply/WDM1AD/Senior-UIUX-Designer)  
-[Conakry](http://ehealthafrica.applytojob.com/apply/8vOEoe/Senior-UIUX-Designer)   
 [Monrovia](http://ehealthafrica.applytojob.com/apply/XqPpHH/Senior-UIUX-Designer)  
 [Freetown](http://ehealthafrica.applytojob.com/apply/W0nGDX/Senior-UIUX-Designer)  
 
