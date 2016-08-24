@@ -1,10 +1,10 @@
 ---
 title: Junior Software Developer
-location: Kano/Conakry/Monrovia/Freetown
+location: Kano/Monrovia/Freetown
 ---
 **Job Title:** Junior Software Developer  
 **Department:** Global Health Informatics  
-**Location:** Kano (Nigeria), Conakry (Guinea), Monrovia (Liberia), Freetown (Sierra Leone)  
+**Location:** Kano (Nigeria), Monrovia (Liberia), Freetown (Sierra Leone)  
 **Job Duration:** Fulltime
 
 ### Summary
@@ -37,14 +37,12 @@ JavaScript, Git, HTML, AJAX, CSS3
 * Understanding of the differences between multiple delivery platforms, such as mobile vs desktop, and optimizing output to match the specific platform
 * Unit test and debugging skills
 * Understanding of code versioning tools (Git) is a plus
-* Fluent in English (French for Conakry), French is desired
+* Fluent in English, French is desired
 
 ### Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following these links for
-[Kano](http://ehealthafrica.applytojob.com/apply/Xqy9Fq/Junior-Software-Developer)  
-[Conakry](http://ehealthafrica.applytojob.com/apply/dOkSKt/Junior-Software-Developer)   
 [Monrovia](http://ehealthafrica.applytojob.com/apply/ME749r/Junior-Software-Developer)  
 [Freetown](http://ehealthafrica.applytojob.com/apply/xU4AQW/Junior-Software-Developer)  
 
