@@ -38,7 +38,5 @@ Project Management, Sprint Planning, Release Planning, Agile, Scrum
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
 ### Please apply following this link for
-[Freetown](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=10)  
-
-For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org)
+[Freetown](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=10)
 
