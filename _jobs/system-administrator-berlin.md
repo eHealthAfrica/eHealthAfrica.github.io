@@ -4,10 +4,11 @@ department: Global Health Informatics
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
+**Job Title:** System Administrator
+**Department:** Global Health Informatics
+**Location:** Berlin (Germany) 
+**Job Duration:** Fulltime  
 
-**Location**: Berlin, Germany  
-**Employment Type**: Full-Time  
-   
 ## Summary
 The System Administrator is responsible for creating continuous integration and deployment pipelines for a variety of different engagements and technologies. S/he translates software requirements into workable programming code as well as develops and maintains programs for business use.
 
@@ -42,8 +43,4 @@ All employees at eHealth Africa are expected to be available for short-term depl
 ## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
-### Please apply via this link only:
-[https://eHealthAfrica.bamboohr.com/jobs/view.php?id=31](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=31)
-
-
-For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org).
+### Please apply via [this link](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=31) only.

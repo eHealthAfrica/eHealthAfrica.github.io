@@ -50,7 +50,3 @@ Life at eHealth Africa means not only working towards saving thousands of lives,
 
 ### Please apply via this link only:
 [http://ehealthafrica.applytojob.com/apply/A8pshN/Senior-Developer](http://ehealthafrica.applytojob.com/apply/A8pshN/Senior-Developer)
-
-
-For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org).
-
