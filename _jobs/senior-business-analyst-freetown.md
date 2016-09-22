@@ -1,12 +1,13 @@
 ---
 title: Senior Business Analyst
+location: Freetown
 department: Global Health Informatics 
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
-**Job Title:** Senior Business Analyst
-**Department:** Global Health Informatics
-**Location:** Freetown (Sierra Leone)
+**Job Title:** Senior Business Analyst  
+**Department:** Global Health Informatics  
+**Location:** Freetown (Sierra Leone)  
 **Employment Type:** Fulltime  
    
 ## Summary
@@ -53,5 +54,4 @@ Requirements Analysis, Sprint Planning, Release Planning, Agile
 ## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
-### Please apply via this link only:
-[https://eHealthAfrica.bamboohr.com/jobs/view.php?id=23](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=23)
+### Please apply via [this link](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=23) only.

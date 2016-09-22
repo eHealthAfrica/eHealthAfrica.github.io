@@ -1,12 +1,13 @@
 ---
 title: Senior Backend Developer
+location: Berlin
 department: Global Health Informatics 
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
 **Job Title:** Senior Backend Developer  
 **Department:** Global Health Informatics  
-**Location:** Berlin (Germany) 
+**Location:** Berlin (Germany)  
 **Job Duration:** Fulltime
 
 ## Summary
