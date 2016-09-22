@@ -1,12 +1,13 @@
 ---
 title: System Administrator
+location: Berlin
 department: Global Health Informatics 
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
-**Job Title:** System Administrator
-**Department:** Global Health Informatics
-**Location:** Berlin (Germany) 
+**Job Title:** System Administrator  
+**Department:** Global Health Informatics  
+**Location:** Berlin (Germany)  
 **Job Duration:** Fulltime  
 
 ## Summary
