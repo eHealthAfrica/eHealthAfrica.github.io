@@ -4,10 +4,11 @@ department: Global Health Informatics
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
+**Job Title:** Senior Backend Developer  
+**Department:** Global Health Informatics  
+**Location:** Berlin (Germany) 
+**Job Duration:** Fulltime
 
-**Location**: Berlin, Germany  
-**Employment Type**: Full-Time  
-   
 ## Summary
 The Senior Backend Developer is responsible for developing and supporting projects, functions and completing specific client work, projects and miscellaneous tasks. This highly responsible position involves using established work procedures to analyze, design, develop, implement, maintain, re-engineer and troubleshoot applications.
 
@@ -47,8 +48,4 @@ All employees at eHealth Africa are expected to be available for short-term depl
 ## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
-### Please apply via this link only:
-[https://eHealthAfrica.bamboohr.com/jobs/view.php?id=32](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=32)
-
-
-For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org).
+### Please apply via [this link](https://eHealthAfrica.bamboohr.com/jobs/view.php?id=32) only.

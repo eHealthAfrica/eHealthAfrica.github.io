@@ -46,5 +46,3 @@ Life at eHealth Africa means not only working towards saving thousands of lives,
 ### Please apply via this link only:
 
 [http://ehealthafrica.applytojob.com/apply/k2f5bg/Technical-Project-Manager](http://ehealthafrica.applytojob.com/apply/k2f5bg/Technical-Project-Manager)
-
-For any questions, please refer to [ghi_hr@ehealthafrica.org](mailto:ghi_hr@ehealthafrica.org)
