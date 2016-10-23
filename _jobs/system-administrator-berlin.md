@@ -1,17 +1,17 @@
 ---
-title: System Administrator
+title: DevOps Engineer
 location: Berlin
 department: Global Health Informatics 
 employment-type: Full-Time 
 minimum-experience: Experienced
 ---
-**Job Title:** System Administrator  
+**Job Title:** DevOps Engineer  
 **Department:** Global Health Informatics  
 **Location:** Berlin (Germany)  
 **Job Duration:** Fulltime  
 
 ## Summary
-The System Administrator is responsible for creating continuous integration and deployment pipelines for a variety of different engagements and technologies. S/he translates software requirements into workable programming code as well as develops and maintains programs for business use.
+The DevOps Engineer is responsible for creating continuous integration and deployment pipelines for a variety of different engagements and technologies. S/he translates software requirements into workable programming code as well as develops and maintains programs for business use.
 
 ## Keywords
 Docker, Linux, Amazon Web Services, Python, JavaScript, CouchDB and PostgreSQL
