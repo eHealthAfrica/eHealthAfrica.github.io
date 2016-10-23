@@ -36,10 +36,9 @@ Docker, Linux, Amazon Web Services, Python, JavaScript, CouchDB and PostgreSQL
 * Experience using cloud services (AWS preferred) and a variety of open source technologies
 * Experience using Git
 * Experience and preference for working within an Agile/Scrum environment
-* Fluent in English, knowledge of French is desired
 * Fluent in English; additional knowledge of French strongly preferred
 
-All employees at eHealth Africa are expected to be available for short-term deployments to / travel between our countries of operation in West Africa with sufficient prior notice
+All employees at eHealth Africa are expected to be available for short-term deployments to / travel between our countries of operation in West Africa with sufficient prior notice.
 
 ## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
