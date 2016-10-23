@@ -38,8 +38,6 @@ The Technical Team Manager is responsible for the successful creation and delive
 * Demonstrated knowledge of project management
 * Fluent in English; knowledge of French is a bonus
 
-All employees at eHealth Africa are expected to be available for short-term deployments to / travel between our countries of operation in West Africa with sufficient prior notice.
-
 ## Why work for us?
 Life at eHealth Africa means not only working towards saving thousands of lives, but also collaborating with dedicated professionals with a passion for innovative technology. We offer a series of programs that enables them to pursue a career that fulfills their potential. Our team members’ health and well-being is our priority as well as rewarding them for their hard work.
 
