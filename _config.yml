@@ -45,3 +45,9 @@ kramdown:
 #   extensions: ['fenced_code_blocks', 'smart']
 
 highlighter: null
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
